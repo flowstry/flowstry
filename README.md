@@ -1,7 +1,5 @@
 # Flowstry
 
-# Flowstry
-
 **Modern. Collaborative. Open Source.**
 
 Flowstry is a modern, collaborative diagramming and whiteboarding platform designed for teams to visualize ideas seamlessly. Built with a unified monorepo architecture, it combines the power of Next.js for a responsive frontend with high-performance Go microservices for real-time interaction.
