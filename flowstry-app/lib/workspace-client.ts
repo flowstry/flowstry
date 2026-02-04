@@ -202,6 +202,16 @@ export const workspaceApiClient = {
     return handleResponse<WorkspaceResponse>(response);
   },
 
+  async getWorkspaceKey(workspaceId: string): Promise<string> {
+    const response = await fetchWithAuth(`${API_BASE_URL}/workspaces/${workspaceId}/key`, {
+      method: 'GET',
+      headers: { 'Content-Type': 'application/json' },
+      credentials: 'include',
+    });
+    const data = await handleResponse<{ key: string }>(response);
+    return data.key;
+  },
+
   async deleteWorkspace(id: string): Promise<void> {
     const response = await fetchWithAuth(`${API_BASE_URL}/workspaces/${id}`, {
       method: 'DELETE',

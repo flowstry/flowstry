@@ -14,6 +14,7 @@ type Workspace struct {
 	Description  string             `bson:"description,omitempty" json:"description,omitempty"`
 	CreatedAt    time.Time          `bson:"created_at" json:"created_at"`
 	UpdatedAt    time.Time          `bson:"updated_at" json:"updated_at"`
+	EncryptedKey []byte             `bson:"encrypted_key" json:"-"`
 	DiagramCount int64              `bson:"-" json:"diagram_count"`
 	FolderCount  int64              `bson:"-" json:"folder_count"`
 }

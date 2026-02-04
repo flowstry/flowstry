@@ -4,6 +4,13 @@
  */
 
 import { CanvasSettings, DiagramData, LoadOptions, SaveOptions, StoragePlugin } from '@canvas';
+import {
+  decryptData,
+  encryptData,
+  importKeyFromRaw,
+  packIVAndCiphertext,
+  unpackIVAndCiphertext
+} from '../utils/crypto';
 import { createCompressedFlowstryBlob, decompressDiagramData } from './compression';
 import { workspaceApiClient } from './workspace-client';
 
@@ -28,6 +35,8 @@ export class CloudStoragePlugin extends StoragePlugin {
   private onGetThumbnail: () => Promise<Blob | null>;
   private saveTimer: NodeJS.Timeout | null = null;
   private pendingSaveData: DiagramData | null = null;
+  private workspaceKey: CryptoKey | null = null;
+  private keyPromise: Promise<CryptoKey> | null = null;
 
   constructor(workspaceId: string, diagramId: string, onGetThumbnail: () => Promise<Blob | null>) {
     super();
@@ -60,8 +69,41 @@ export class CloudStoragePlugin extends StoragePlugin {
   /**
    * Get current workspace ID
    */
+  /**
+   * Get current workspace ID
+   */
   getWorkspaceId(): string {
     return this.workspaceId;
+  }
+
+  /**
+   * Ensures the workspace encryption key is loaded
+   */
+  private async ensureWorkspaceKey(): Promise<CryptoKey> {
+    if (this.workspaceKey) return this.workspaceKey;
+
+    // Deduplicate requests
+    if (this.keyPromise) return this.keyPromise;
+
+    this.keyPromise = (async () => {
+      try {
+        console.log('Fetching workspace key...');
+        const base64Key = await workspaceApiClient.getWorkspaceKey(this.workspaceId);
+
+        // Decode base64 to Uint8Array
+        const binaryString = atob(base64Key);
+        const bytes = new Uint8Array(binaryString.length);
+        for (let i = 0; i < binaryString.length; i++) {
+          bytes[i] = binaryString.charCodeAt(i);
+        }
+
+        this.workspaceKey = await importKeyFromRaw(bytes);
+        return this.workspaceKey;
+      } finally {
+        this.keyPromise = null;
+      }
+    })();
+    return this.keyPromise;
   }
 
   async save(data: DiagramData, options?: SaveOptions): Promise<boolean> {
@@ -90,9 +132,18 @@ export class CloudStoragePlugin extends StoragePlugin {
 
         try {
           console.log('Syncing to cloud...');
-          // Compress and upload to cloud using signed URL (handled by client)
+          // 1. Compress
           const blob = createCompressedFlowstryBlob(this.pendingSaveData);
-          const objectName = await workspaceApiClient.uploadDiagramFile(this.workspaceId, this.diagramId, blob);
+
+          // 2. Encrypt
+          const key = await this.ensureWorkspaceKey();
+          const arrayBuffer = await blob.arrayBuffer();
+          const { ciphertext, iv } = await encryptData(arrayBuffer, key);
+          const packed = packIVAndCiphertext(iv, ciphertext);
+          const encryptedBlob = new Blob([packed as any], { type: 'application/octet-stream' });
+
+          // 3. Upload
+          const objectName = await workspaceApiClient.uploadDiagramFile(this.workspaceId, this.diagramId, encryptedBlob);
 
           // Generate and upload thumbnail
           let thumbnailObjectName: string | undefined;
@@ -138,10 +189,15 @@ export class CloudStoragePlugin extends StoragePlugin {
       // Always download from cloud
       const blob = await workspaceApiClient.downloadDiagram(this.workspaceId, this.diagramId);
       const arrayBuffer = await blob.arrayBuffer();
-      const uint8Array = new Uint8Array(arrayBuffer);
-      
+      const packed = new Uint8Array(arrayBuffer);
+
+      // Decrypt
+      const key = await this.ensureWorkspaceKey();
+      const { iv, ciphertext } = unpackIVAndCiphertext(packed);
+      const decrypted = await decryptData(ciphertext, key, iv);
+
       // Decompress
-      const data = decompressDiagramData<DiagramData>(uint8Array);
+      const data = decompressDiagramData<DiagramData>(decrypted);
 
       return data;
     } catch (error) {

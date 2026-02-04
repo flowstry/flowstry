@@ -190,6 +190,34 @@ func getUserIDFromContext(c *fiber.Ctx) (primitive.ObjectID, error) {
 	if userIDStr == "" {
 		return primitive.NilObjectID, fiber.ErrUnauthorized
 	}
-	return primitive.ObjectIDFromHex(userIDStr)
+
+// GetKey retrieves the workspace encryption key
+func (wc *WorkspaceController) GetKey(c *fiber.Ctx) error {
+	userID, err := getUserIDFromContext(c)
+	if err != nil {
+		return utils.Unauthorized(c, "User not authenticated")
+	}
+
+	workspaceID, err := primitive.ObjectIDFromHex(c.Params("id"))
+	if err != nil {
+		return utils.BadRequest(c, "Invalid workspace ID")
+	}
+
+	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
+	defer cancel()
+
+	key, err := wc.workspaceService.GetWorkspaceKey(ctx, workspaceID, userID)
+	if err != nil {
+		if err == services.ErrWorkspaceNotFound {
+			return utils.NotFound(c, "Workspace not found")
+		}
+		if err == services.ErrForbidden {
+			return utils.Forbidden(c, "Access denied")
+		}
+		return utils.InternalError(c, "Failed to get workspace key")
+	}
+
+	return utils.SuccessResponse(c, fiber.Map{"key": key})
 }
+
 

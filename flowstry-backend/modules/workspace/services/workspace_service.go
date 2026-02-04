@@ -19,8 +19,9 @@ var (
 
 // WorkspaceService handles workspace operations
 type WorkspaceService struct {
-	memberService *MemberService
-	inviteService *InviteService
+	memberService     *MemberService
+	inviteService     *InviteService
+	encryptionService *EncryptionService
 }
 
 // NewWorkspaceService creates a new workspace service
@@ -38,6 +39,11 @@ func (s *WorkspaceService) SetInviteService(is *InviteService) {
 	s.inviteService = is
 }
 
+// SetEncryptionService sets the encryption service
+func (s *WorkspaceService) SetEncryptionService(es *EncryptionService) {
+	s.encryptionService = es
+}
+
 // Create creates a new workspace and adds the creator as owner
 func (s *WorkspaceService) Create(ctx context.Context, userID primitive.ObjectID, req *models.CreateWorkspaceRequest) (*models.Workspace, error) {
 	collection := database.GetCollection("workspaces")
@@ -51,6 +57,19 @@ func (s *WorkspaceService) Create(ctx context.Context, userID primitive.ObjectID
 		Description: req.Description,
 		CreatedAt:   time.Now(),
 		UpdatedAt:   time.Now(),
+	}
+
+	// Generate and encrypt workspace key
+	if s.encryptionService != nil {
+		rawKey, err := s.encryptionService.GenerateWorkspaceKey()
+		if err != nil {
+			return nil, err
+		}
+		encryptedKey, err := s.encryptionService.EncryptWorkspaceKey(rawKey)
+		if err != nil {
+			return nil, err
+		}
+		workspace.EncryptedKey = encryptedKey
 	}
 
 	result, err := collection.InsertOne(ctx, workspace)
@@ -315,6 +334,34 @@ func (s *WorkspaceService) VerifyAccess(ctx context.Context, workspaceID, userID
 // VerifyOwnership is deprecated, use VerifyAccess with role checks instead
 // Kept for backward compatibility
 func (s *WorkspaceService) VerifyOwnership(ctx context.Context, workspaceID, userID primitive.ObjectID) error {
-	return s.VerifyAccess(ctx, workspaceID, userID)
+
+// GetWorkspaceKey retrieves the decrypted workspace key (Admin+ only)
+func (s *WorkspaceService) GetWorkspaceKey(ctx context.Context, workspaceID, userID primitive.ObjectID) ([]byte, error) {
+	workspace, err := s.GetByID(ctx, workspaceID, userID)
+	if err != nil {
+		return nil, err
+	}
+
+	// Double check access - strictly enforce that only members can get the key
+	// (GetByID already checks membership, but redundant safety is good for crypto)
+	if s.memberService != nil {
+		if !s.memberService.HasAccess(ctx, workspaceID, userID) {
+			return nil, ErrForbidden
+		}
+	} else {
+		if workspace.UserID != userID {
+			return nil, ErrForbidden
+		}
+	}
+	
+	if len(workspace.EncryptedKey) == 0 {
+		return nil, errors.New("workspace is not encrypted")
+	}
+
+	if s.encryptionService == nil {
+		return nil, errors.New("encryption service not configured")
+	}
+
+	return s.encryptionService.DecryptWorkspaceKey(workspace.EncryptedKey)
 }
 

@@ -7,12 +7,20 @@ import (
 	workspaceServices "github.com/flowstry/flowstry-backend/modules/workspace/services"
 	"github.com/flowstry/flowstry-backend/storage"
 	"github.com/gofiber/fiber/v2"
+	"fmt"
 )
 
 // SetupRoutes configures workspace routes
 func SetupRoutes(app *fiber.App, authService *services.AuthService, gcsClient *storage.GCSClient, liveCollabService *workspaceServices.LiveCollabService) {
 	// Initialize services
+	encryptionService, err := workspaceServices.NewEncryptionService()
+	if err != nil {
+		fmt.Printf("Warning: Failed to initialize encryption service: %v\n", err)
+	}
+
 	workspaceService := workspaceServices.NewWorkspaceService()
+	workspaceService.SetEncryptionService(encryptionService)
+
 	memberService := workspaceServices.NewMemberService()
 	inviteService := workspaceServices.NewInviteService(memberService)
 	folderService := workspaceServices.NewFolderService()
@@ -39,6 +47,7 @@ func SetupRoutes(app *fiber.App, authService *services.AuthService, gcsClient *s
 	workspaces.Post("/", workspaceController.Create)
 	workspaces.Get("/recents", diagramController.ListRecent)
 	workspaces.Get("/:id", workspaceController.Get)
+	workspaces.Get("/:id/key", workspaceController.GetKey)
 	workspaces.Put("/:id", workspaceController.Update)
 	workspaces.Put("/:id", workspaceController.Update)
 	workspaces.Delete("/:id", workspaceController.Delete)

@@ -13,6 +13,12 @@ export default function Footer() {
           <Link href="/changelog" className="transition hover:text-white">
             Changelog
           </Link>
+          <Link href="/privacy-policy" className="transition hover:text-white">
+            Privacy
+          </Link>
+          <Link href="/terms-and-conditions" className="transition hover:text-white">
+            Terms
+          </Link>
           <a
             href="https://x.com/FlowstryOffical"
             target="_blank"

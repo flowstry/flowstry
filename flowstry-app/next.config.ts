@@ -4,3 +4,5 @@ const nextConfig: NextConfig = {
   output: 'export',
   transpilePackages: ['flowstry-canvas'],
 };
+
+export default nextConfig;
