@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "flowstry-aaaa9",
     "public": "out",
     "cleanUrls": true,
     "trailingSlash": false,

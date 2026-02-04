@@ -26,12 +26,15 @@ jobs:
         run: |
           cd flowstry-website
           npm run build
+          # Handling image renaming for OG tags if needed, though Next.js usually handles this
+          if [ -f "out/opengraph-image" ]; then mv out/opengraph-image out/opengraph-image.png; fi
+          if [ -f "out/twitter-image" ]; then mv out/twitter-image out/twitter-image.png; fi
 
       - name: Deploy to Firebase
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_FLOWSTRY_WEBSITE }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_FLOWSTRY }}'
           channelId: live
-          projectId: '${{ secrets.FIREBASE_PROJECT_ID_WEBSITE }}'
+          projectId: '${{ secrets.GCP_PROJECT_ID }}'
           entryPoint: ./flowstry-website

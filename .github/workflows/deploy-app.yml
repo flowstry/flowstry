@@ -31,7 +31,7 @@ jobs:
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_FLOWSTRY_FRONTEND }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_FLOWSTRY }}'
           channelId: live
-          projectId: '${{ secrets.FIREBASE_PROJECT_ID_FRONTEND }}'
+          projectId: '${{ secrets.GCP_PROJECT_ID }}'
           entryPoint: ./flowstry-app

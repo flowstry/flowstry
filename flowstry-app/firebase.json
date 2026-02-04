@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "target": "flowstry-app",
+    "site": "flowstry-app",
     "public": "out",
     "cleanUrls": true,
     "trailingSlash": false,
