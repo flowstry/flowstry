@@ -1,16 +1,18 @@
 import {
-  ArrowRight,
+  ArrowRight, // Added for Export
+  BoxSelect,
   CheckCircle2,
-  Cloud,
-  Folder,
-  Github,
-  Laptop,
-  LayoutGrid,
-  Pencil,
-  Sparkles
+  Cloud, // Added for Hand-drawn
+  Download,
+  Folder, Laptop,
+  LayoutGrid, // Added for Live Collab
+  PenTool, // Added for Frames
+  Sparkles,
+  Users
 } from "lucide-react";
 import Link from "next/link";
 import AuthActionButton from "./components/AuthActionButton";
+import Footer from "./components/Footer";
 import MobileStickyCta from "./components/MobileStickyCta";
 import StickyHeader from "./components/StickyHeader";
 
@@ -23,14 +25,19 @@ const featureHighlights = [
     description: "Start creating instantly with no login required. Your ideas stay on-device.",
   },
   {
+    icon: Users,
+    title: "Live collaboration",
+    description: "Multiplayer editing with real-time cursor presence and instant sync.",
+  },
+  {
+    icon: PenTool,
+    title: "Hand-drawn style",
+    description: "Switch to hand-drawn style for low-fidelity brainstorming/whiteboarding.",
+  },
+  {
     icon: LayoutGrid,
     title: "Structured diagramming",
     description: "Precise layouts, connectors, and aligned components for clean system maps.",
-  },
-  {
-    icon: Sparkles,
-    title: "Freeform brainstorming",
-    description: "Sketch freely, then turn concepts into structured architecture diagrams.",
   },
   {
     icon: Folder,
@@ -39,13 +46,23 @@ const featureHighlights = [
   },
   {
     icon: Cloud,
-    title: "Cloud sync when ready",
+    title: "Cloud sync",
     description: "Sign up to sync across devices and keep everything in one place.",
   },
   {
-    icon: Pencil,
-    title: "Fast iteration",
-    description: "Quickly refine flows, annotate decisions, and keep systems readable.",
+    icon: BoxSelect,
+    title: "Frames & grouping",
+    description: "Group elements into logical frames to structure large architecture diagrams.",
+  },
+  {
+    icon: Download,
+    title: "Export & share",
+    description: "Export to PNG/SVG or share your workspace with your team.",
+  },
+  {
+    icon: Sparkles,
+    title: "Shape library",
+    description: "AWS, GCP, Azure, and Kubernetes shapes included out of the box.",
   },
 ];
 
@@ -213,20 +230,6 @@ export default function HomePage() {
             </div>
           </div>
           <div className="grid gap-4">
-            <div className="glass-card rounded-2xl p-5">
-              <div className="flex items-center justify-between text-xs text-neutral-400">
-                <span>Workspace drafts</span>
-                <span className="rounded-full bg-white/10 px-2 py-1">Saved</span>
-              </div>
-              <div className="mt-4 space-y-3">
-                {["System audit", "Service map", "Infrastructure draft"].map((item) => (
-                  <div key={item} className="flex items-center justify-between rounded-xl border border-white/10 bg-white/5 px-4 py-3">
-                    <span className="text-sm text-neutral-200">{item}</span>
-                    <span className="text-xs text-neutral-500">Recent</span>
-                  </div>
-                ))}
-              </div>
-            </div>
             <div className="glass-card rounded-2xl border border-[var(--primary)]/30 p-5">
               <div className="flex items-center justify-between text-xs text-neutral-400">
                 <span>Cloud workspace</span>
@@ -298,41 +301,8 @@ export default function HomePage() {
         </div>
       </section>
 
-      <footer className="mx-auto w-full max-w-6xl px-6 pb-10 text-xs text-neutral-500">
-        <div className="flex flex-col gap-4 border-t border-white/10 pt-6 md:flex-row md:items-center md:justify-between">
-          <div className="flex flex-col gap-2">
-            <span>Flowstry — Design systems where flow meets structure.</span>
-            <span>© {new Date().getFullYear()} Flowstry</span>
-          </div>
-          <div className="flex items-center gap-6">
-            <a
-              href="https://x.com/FlowstryOffical"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center transition hover:text-white"
-              aria-label="X"
-            >
-              <svg
-                viewBox="0 0 24 24"
-                aria-hidden="true"
-                fill="currentColor"
-                className="h-4 w-4"
-              >
-                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
-              </svg>
-            </a>
-            <a
-              href="https://github.com/flowstry/flowstry"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center transition hover:text-white"
-              aria-label="GitHub"
-            >
-              <Github className="h-4 w-4" />
-            </a>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </main>
   );
 }
+

@@ -28,23 +28,26 @@ export default function StickyHeader({ appUrl }: { appUrl: string }) {
       }`}
     >
       <div className={`mx-auto flex w-full max-w-6xl items-center lg:justify-between ${isScrolled ? 'justify-center' : 'justify-between'} px-6 py-4`}>
-        <div className="flex items-center gap-3">
+        <Link href="/" className="flex items-center gap-3">
           <img src="/logo.svg" alt="Flowstry logo" className="h-9 w-9" />
           <span className="text-lg font-semibold tracking-wide">Flowstry</span>
-        </div>
+        </Link>
         <nav className="hidden items-center gap-6 text-sm text-neutral-300 lg:flex">
-          <a href="#features" className="transition hover:text-white">
+          <Link href="/#features" className="transition hover:text-white">
             Features
-          </a>
-          <a href="#library" className="transition hover:text-white">
+          </Link>
+          <Link href="/#library" className="transition hover:text-white">
             Library
-          </a>
-          <a href="#workspaces" className="transition hover:text-white">
+          </Link>
+          <Link href="/#workspaces" className="transition hover:text-white">
             Workspaces
-          </a>
-          <a href="#use-cases" className="transition hover:text-white">
+          </Link>
+          <Link href="/#use-cases" className="transition hover:text-white">
             Use cases
-          </a>
+          </Link>
+          <Link href="/changelog" className="transition hover:text-white">
+            Changelog
+          </Link>
         </nav>
         <div className="hidden lg:flex items-center gap-3">
           <a

@@ -58,3 +58,7 @@ We use a combination of **Firebase Hosting** (Frontends) and **Google Cloud Run*
 
 - **Frontends**: Deployed via Firebase Hosting.
 - **Backends**: Containerized and deployed to Cloud Run via GitHub Actions.
+
+## License
+
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
