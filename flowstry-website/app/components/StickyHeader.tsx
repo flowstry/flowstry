@@ -1,5 +1,6 @@
 "use client";
 
+import { Github } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import AuthActionButton from "./AuthActionButton";
@@ -46,6 +47,31 @@ export default function StickyHeader({ appUrl }: { appUrl: string }) {
           </a>
         </nav>
         <div className="hidden lg:flex items-center gap-3">
+          <a
+            href="https://x.com/FlowstryOffical"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-full bg-white/10 p-2 text-neutral-300 transition hover:bg-white/20 hover:text-white"
+            aria-label="X"
+          >
+            <svg
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+              fill="currentColor"
+              className="h-4 w-4"
+            >
+              <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+            </svg>
+          </a>
+          <a
+            href="https://github.com/flowstry/flowstry"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-full bg-white/10 p-2 text-neutral-300 transition hover:bg-white/20 hover:text-white"
+            aria-label="GitHub"
+          >
+            <Github className="h-5 w-5" />
+          </a>
           <Link
             href={appUrl}
             className="btn-glow rounded-full bg-[var(--primary)] px-5 py-2 text-sm font-semibold text-[#0f2a26]"

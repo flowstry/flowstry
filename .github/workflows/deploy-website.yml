@@ -12,20 +12,26 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
           node-version: 18
+          cache: 'pnpm'
 
       - name: Install Dependencies
         run: |
           cd flowstry-website
-          npm ci
+          pnpm install --frozen-lockfile
 
       - name: Build
         run: |
           cd flowstry-website
-          npm run build
+          pnpm run build
           # Handling image renaming for OG tags if needed, though Next.js usually handles this
           if [ -f "out/opengraph-image" ]; then mv out/opengraph-image out/opengraph-image.png; fi
           if [ -f "out/twitter-image" ]; then mv out/twitter-image out/twitter-image.png; fi

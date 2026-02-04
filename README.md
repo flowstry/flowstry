@@ -1,6 +1,22 @@
 # Flowstry
 
-Flowstry is a comprehensive platform built with a modern tech stack, organized as a monorepo.
+# Flowstry
+
+**Modern. Collaborative. Open Source.**
+
+Flowstry is a modern, collaborative diagramming and whiteboarding platform designed for teams to visualize ideas seamlessly. Built with a unified monorepo architecture, it combines the power of Next.js for a responsive frontend with high-performance Go microservices for real-time interaction.
+
+### 🌐 Live
+- **Website**: [flowstry.com](https://flowstry.com)
+- **App**: [app.flowstry.com](https://app.flowstry.com)
+- **X / Twitter**: [@FlowstryOffical](https://x.com/FlowstryOffical)
+
+## ✨ Key Features
+- **Infinite Canvas**: A smooth, infinite workspace for creating flowcharts, diagrams, and sketches using a hand-drawn aesthetic.
+- **Real-Time Collaboration**: Multiplayer support allowing multiple users to edit diagrams simultaneously with live cursor tracking.
+- **Modern Tech Stack**: Built on Next.js and Go, ensuring high performance and scalability.
+- **Feedback System**: Integrated feedback collection service to gather user insights directly from the app.
+- **Secure Architecture**: Robust backend handling authentication, workspace management, and data persistence.
 
 ## Architecture & Documentation
 
