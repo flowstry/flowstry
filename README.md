@@ -2,24 +2,39 @@
 
 Flowstry is a comprehensive platform built with a modern tech stack, organized as a monorepo.
 
-## Architecture Overview
+## Architecture & Documentation
 
-The project is divided into the following services:
+The project is divided into the following services. Detailed documentation for each is available in the `docs/` directory:
 
 ### Frontend
-- **[Flowstry Frontend](./flowstry-frontend)**: The main application interface built with Next.js.
-- **[Flowstry Website](./flowstry-website)**: The public-facing marketing website built with Next.js.
+- **[Flowstry App](./flowstry-app)** ([Docs](./docs/services/app.md)): The main application interface built with Next.js.
+- **[Flowstry Website](./flowstry-website)** ([Docs](./docs/services/website.md)): The public-facing marketing website built with Next.js.
 
 ### Backend
-- **[Flowstry Backend](./flowstry-backend)**: Core API service handling business logic (Go).
-- **[Live Collaboration Service](./flowstry-live-collab-service)**: Handles real-time updates and collaboration features (Go).
-- **[Feedback Service](./flowstry-feedback-service)**: Manages user feedback data (Go).
+- **[Flowstry Backend](./flowstry-backend)** ([Docs](./docs/services/backend.md)): Core API service (Go).
+- **[Live Collaboration Service](./flowstry-live-collab-service)** ([Docs](./docs/services/live-collab-service.md)): Real-time collab (Go).
+- **[Feedback Service](./flowstry-feedback-service)** ([Docs](./docs/services/feedback-service.md)): Feedback management (Go).
 
-## Getting Started
+## Getting Started / Running Locally
 
-To get started with development, please refer to the [Contributing Guide](./CONTRIBUTING.md).
+To run the basic local version of the app:
 
- each service has its own `README.md` with specific setup instructions.
+1.  **Navigate to the App directory**:
+    ```bash
+    cd flowstry-app
+    ```
+2.  **Install Dependencies**:
+    ```bash
+    npm install
+    ```
+3.  **Run Development Server**:
+    ```bash
+    npm run dev
+    ```
+    The app will best available at `http://localhost:3000`.
+
+For full platform development (including backend), please refer to the [Contributing Guide](./CONTRIBUTING.md).
+
 
 ## Deployment
 

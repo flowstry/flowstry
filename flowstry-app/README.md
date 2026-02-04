@@ -2,6 +2,9 @@
 
 The main frontend application for the Flowstry platform, built with [Next.js](https://nextjs.org/).
 
+> **Detailed Documentation**: Please see [docs/services/frontend.md](../docs/services/frontend.md) for tech stack, project structure, and deployment info.
+
+
 ## Getting Started
 
 ### Prerequisites

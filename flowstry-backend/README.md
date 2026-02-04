@@ -2,6 +2,9 @@
 
 The core backend service for Flowstry, written in Go.
 
+> **Detailed Documentation**: Please see [docs/services/backend.md](../docs/services/backend.md) for architecture, configuration, and API details.
+
+
 ## Getting Started
 
 ### Prerequisites

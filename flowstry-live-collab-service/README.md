@@ -1,6 +1,9 @@
 # Live Collaboration Service
 
-Real-time collaboration backend for Flowstry enabling Figma-like multiplayer editing experiences.
+Real-time collaboration service for Flowstry, built with Go.
+
+> **Detailed Documentation**: Please see [docs/services/live-collab-service.md](../docs/services/live-collab-service.md) for protocol details and architecture.
+Figma-like multiplayer editing experiences.
 
 ## Features
 

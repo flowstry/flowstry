@@ -14,7 +14,7 @@ Flowstry is a monorepo containing several services. To get started, you'll need 
 
 ### Project Structure
 
-- **`flowstry-frontend`**: Main Next.js frontend application.
+- **`flowstry-app`**: Main Next.js frontend application.
 - **`flowstry-website`**: Marketing website (Next.js).
 - **`flowstry-backend`**: Core backend service (Go).
 - **`flowstry-live-collab-service`**: Real-time collaboration service (Go).

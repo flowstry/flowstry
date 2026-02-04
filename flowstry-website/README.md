@@ -20,6 +20,12 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Flowstry Website
+
+The public-facing marketing website built with Next.js.
+
+> **Detailed Documentation**: Please see [docs/services/website.md](../docs/services/website.md) for tech stack, structure, and development commands.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
