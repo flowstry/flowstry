@@ -2,15 +2,8 @@ name: Deploy Live Collab Service to Cloud Run
 
 on:
   push:
-    paths:
-      - 'flowstry-live-collab-service/**'
-    branches:
-      - main
-  pull_request:
-    paths:
-      - 'flowstry-live-collab-service/**'
-    branches:
-      - main
+    tags:
+      - 'v*'
 
 env:
   PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
@@ -20,7 +13,7 @@ env:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
+    environment: production
     
     steps:
       - name: Checkout code
