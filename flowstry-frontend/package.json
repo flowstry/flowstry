@@ -1,0 +1,38 @@
+{
+  "name": "flowstry-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "firebase:deploy": "pnpm build && rm -rf out && mkdir -p out/_next && cp -r .next/server/app/*.html out/ 2>/dev/null; cp -r .next/static out/_next/; cp -r public/* out/ 2>/dev/null; firebase deploy --only hosting:flowstry-app",
+    "firebase:serve": "pnpm build && rm -rf out && mkdir -p out/_next && cp -r .next/server/app/*.html out/ 2>/dev/null; cp -r .next/static out/_next/; cp -r public/* out/ 2>/dev/null; firebase serve --only hosting:flowstry-app"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "firebase": "^12.5.0",
+    "framer-motion": "^12.23.25",
+    "lucide-react": "^0.556.0",
+    "next": "16.0.7",
+    "pako": "^2.1.0",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "react-icons": "^5.5.0",
+    "roughjs": "^4.6.6",
+    "tailwind-merge": "^3.4.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/pako": "^2.0.4",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.7",
+    "firebase-tools": "^14.24.1",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

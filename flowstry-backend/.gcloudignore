@@ -1,0 +1,24 @@
+# Dependencies
+go.sum
+
+# Binary
+main
+flowstry-backend
+
+# Environment
+.env
+.env.local
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+
+# Git
+.git/
+.gitignore
+
+# Docs
+*.md

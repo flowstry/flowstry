@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "flowstry-aaaa9"
+  },
+  "targets": {
+    "flowstry-aaaa9": {
+      "hosting": {
+        "flowstry-app": [
+          "flowstry-app"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

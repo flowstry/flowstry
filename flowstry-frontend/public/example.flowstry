@@ -1,0 +1,838 @@
+{
+  "version": "1.0.0",
+  "name": "Flowstry Early Access.flowstry",
+  "shapes": [
+    {
+      "id": "af3c1655-6425-42c0-84d4-f16ee89571f9",
+      "type": "service-card",
+      "x": 1157.81689453125,
+      "y": 954.7612915039062,
+      "width": 196,
+      "height": 50,
+      "fill": "#ffffff",
+      "fillOpacity": 1,
+      "stroke": "#575757",
+      "strokeWidth": 4,
+      "strokeOpacity": 1,
+      "text": "",
+      "fontSize": 14,
+      "fontFamily": "Inter, system-ui, -apple-system, sans-serif",
+      "fontWeight": "normal",
+      "textDecoration": "none",
+      "textAlign": "center",
+      "textJustify": "middle",
+      "textColor": "#000000",
+      "strokeStyle": "solid",
+      "fillStyle": "solid",
+      "reactShapeData": {
+        "iconPath": "/icons/tech/tools/google-original.svg",
+        "serviceName": "Google Analytics"
+      }
+    },
+    {
+      "id": "7ea25189-8f72-4256-baee-3a6e0ea6bca5",
+      "type": "rectangle",
+      "x": 682.3350830078125,
+      "y": 1117.5346984863281,
+      "width": 270,
+      "height": 75,
+      "fill": "#36c3ad",
+      "fillOpacity": 1,
+      "stroke": "#575757",
+      "strokeWidth": 4,
+      "strokeOpacity": 1,
+      "text": "<b>Flowstry</b>",
+      "fontSize": 20,
+      "fontFamily": "Inter, system-ui, -apple-system, sans-serif",
+      "fontWeight": "bold",
+      "textDecoration": "none",
+      "textAlign": "center",
+      "textJustify": "middle",
+      "textColor": "#05696b",
+      "strokeStyle": "none",
+      "fillStyle": "solid"
+    },
+    {
+      "id": "657cfe3a-eb8b-4b30-98cf-2e82719637e4",
+      "type": "connector",
+      "x": 314.609375,
+      "y": 1012.2960205078125,
+      "width": 420,
+      "height": 177.5,
+      "fill": "none",
+      "fillOpacity": 0,
+      "stroke": "#000000",
+      "strokeWidth": 2,
+      "strokeOpacity": 1,
+      "text": "Tracking User Analytics and Web Traffic",
+      "fontSize": 14,
+      "fontFamily": "Inter, system-ui, -apple-system, sans-serif",
+      "fontWeight": "normal",
+      "textDecoration": "none",
+      "textAlign": "center",
+      "textJustify": "middle",
+      "textColor": "#000000",
+      "strokeStyle": "solid",
+      "fillStyle": "none",
+      "connectorType": "bent",
+      "startPoint": {
+        "x": 952.3350830078125,
+        "y": 1155.0346984863281
+      },
+      "endPoint": {
+        "x": 1157.81689453125,
+        "y": 979.7612915039062
+      },
+      "startShapeId": "7ea25189-8f72-4256-baee-3a6e0ea6bca5",
+      "endShapeId": "af3c1655-6425-42c0-84d4-f16ee89571f9",
+      "startConnectorPoint": "right",
+      "endConnectorPoint": "left",
+      "pointsStraight": [
+        {
+          "x": 22.5,
+          "y": 1155
+        },
+        {
+          "x": 157.5,
+          "y": 977.5
+        }
+      ],
+      "pointsBent": [
+        {
+          "x": 952.3350830078125,
+          "y": 1155.0346984863281,
+          "direction": "right",
+          "fixedX": true,
+          "fixedY": true
+        },
+        {
+          "x": 1049.0759887695312,
+          "y": 1155.0346984863281
+        },
+        {
+          "x": 1049.0759887695312,
+          "y": 979.7612915039062
+        },
+        {
+          "x": 1157.81689453125,
+          "y": 979.7612915039062,
+          "direction": "left",
+          "fixedX": true,
+          "fixedY": true
+        }
+      ],
+      "pointsCurved": [
+        {
+          "x": 22.5,
+          "y": 1155
+        },
+        {
+          "x": 157.5,
+          "y": 977.5
+        }
+      ],
+      "hasUserModifiedPath": false,
+      "bentConnectorSegments": [
+        {
+          "axis": "x",
+          "value": 1155.0346984863281,
+          "start": 952.3350830078125,
+          "end": 1049.0759887695312,
+          "locked": true
+        },
+        {
+          "axis": "y",
+          "value": 1049.0759887695312,
+          "start": 1155.0346984863281,
+          "end": 979.7612915039062,
+          "locked": false
+        },
+        {
+          "axis": "x",
+          "value": 979.7612915039062,
+          "start": 1049.0759887695312,
+          "end": 1157.81689453125,
+          "locked": false
+        }
+      ],
+      "bentConnectorRoutingMode": "auto",
+      "startArrowheadType": "none",
+      "endArrowheadType": "open-arrow",
+      "animated": false,
+      "labelPosition": 0.5
+    },
+    {
+      "id": "f444ac6d-4105-4ab9-8c07-93fabe4471cd",
+      "type": "service-card",
+      "x": 1157.81689453125,
+      "y": 1329.7612915039062,
+      "width": 196,
+      "height": 50,
+      "fill": "#ffffff",
+      "fillOpacity": 1,
+      "stroke": "#575757",
+      "strokeWidth": 4,
+      "strokeOpacity": 1,
+      "text": "",
+      "fontSize": 14,
+      "fontFamily": "Inter, system-ui, -apple-system, sans-serif",
+      "fontWeight": "normal",
+      "textDecoration": "none",
+      "textAlign": "center",
+      "textJustify": "middle",
+      "textColor": "#000000",
+      "strokeStyle": "solid",
+      "fillStyle": "solid",
+      "reactShapeData": {
+        "iconPath": "/icons/tech/languages/go-original.svg",
+        "serviceName": "Feedback Service"
+      }
+    },
+    {
+      "id": "acdea9f8-174f-4e88-9df4-d33bf9c86c99",
+      "type": "connector",
+      "x": 314.609375,
+      "y": 1189.7960205078125,
+      "width": 420,
+      "height": 196.5,
+      "fill": "none",
+      "fillOpacity": 0,
+      "stroke": "#000000",
+      "strokeWidth": 2,
+      "strokeOpacity": 1,
+      "text": "Waitlisting, Feedback and support",
+      "fontSize": 14,
+      "fontFamily": "Inter, system-ui, -apple-system, sans-serif",
+      "fontWeight": "normal",
+      "textDecoration": "none",
+      "textAlign": "center",
+      "textJustify": "middle",
+      "textColor": "#000000",
+      "strokeStyle": "solid",
+      "fillStyle": "none",
+      "connectorType": "bent",
+      "startPoint": {
+        "x": 952.3350830078125,
+        "y": 1155.0346984863281
+      },
+      "endPoint": {
+        "x": 1157.81689453125,
+        "y": 1353.7612915039062
+      },
+      "startShapeId": "7ea25189-8f72-4256-baee-3a6e0ea6bca5",
+      "endShapeId": "f444ac6d-4105-4ab9-8c07-93fabe4471cd",
+      "startConnectorPoint": "right",
+      "endConnectorPoint": "left",
+      "pointsStraight": [
+        {
+          "x": -7.5,
+          "y": 1170
+        },
+        {
+          "x": -7.5,
+          "y": 1170
+        }
+      ],
+      "pointsBent": [
+        {
+          "x": 952.3350830078125,
+          "y": 1155.0346984863281,
+          "direction": "right",
+          "fixedX": true,
+          "fixedY": true
+        },
+        {
+          "x": 1049.0759887695312,
+          "y": 1155.0346984863281
+        },
+        {
+          "x": 1049.0759887695312,
+          "y": 1353.7612915039062
+        },
+        {
+          "x": 1157.81689453125,
+          "y": 1353.7612915039062,
+          "direction": "left",
+          "fixedX": true,
+          "fixedY": true
+        }
+      ],
+      "pointsCurved": [
+        {
+          "x": -7.5,
+          "y": 1170
+        },
+        {
+          "x": -7.5,
+          "y": 1170
+        }
+      ],
+      "hasUserModifiedPath": false,
+      "bentConnectorSegments": [
+        {
+          "axis": "x",
+          "value": 1155.0346984863281,
+          "start": 952.3350830078125,
+          "end": 1049.0759887695312,
+          "locked": true
+        },
+        {
+          "axis": "y",
+          "value": 1049.0759887695312,
+          "start": 1155.0346984863281,
+          "end": 1353.7612915039062,
+          "locked": false
+        },
+        {
+          "axis": "x",
+          "value": 1353.7612915039062,
+          "start": 1049.0759887695312,
+          "end": 1157.81689453125,
+          "locked": false
+        }
+      ],
+      "bentConnectorRoutingMode": "auto",
+      "startArrowheadType": "none",
+      "endArrowheadType": "open-arrow",
+      "animated": false,
+      "labelPosition": 0.5
+    },
+    {
+      "id": "d148e369-3e89-44a0-ba1b-e1ea1434c67e",
+      "type": "todo-card",
+      "x": 1097.81689453125,
+      "y": 1479.7612915039062,
+      "width": 315,
+      "height": 225,
+      "fill": "#ffffff",
+      "fillOpacity": 1,
+      "stroke": "#575757",
+      "strokeWidth": 4,
+      "strokeOpacity": 1,
+      "text": "",
+      "fontSize": 14,
+      "fontFamily": "Inter, system-ui, -apple-system, sans-serif",
+      "fontWeight": "normal",
+      "textDecoration": "none",
+      "textAlign": "center",
+      "textJustify": "middle",
+      "textColor": "#000000",
+      "strokeStyle": "solid",
+      "fillStyle": "solid",
+      "reactShapeData": {
+        "title": "Feedback Service Features",
+        "todos": [
+          {
+            "id": "todo-1766334234896",
+            "text": "Waitlisting",
+            "completed": true
+          },
+          {
+            "id": "todo-1766334244981",
+            "text": "Feedback and support",
+            "completed": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "7bf7bf97-9323-441e-8680-c5c12e603f16",
+      "type": "connector",
+      "x": 832.109375,
+      "y": 1410.2960205078125,
+      "width": 0.5,
+      "height": 102,
+      "fill": "none",
+      "fillOpacity": 0,
+      "stroke": "#000000",
+      "strokeWidth": 2,
+      "strokeOpacity": 1,
+      "text": "",
+      "fontSize": 14,
+      "fontFamily": "Inter, system-ui, -apple-system, sans-serif",
+      "fontWeight": "normal",
+      "textDecoration": "none",
+      "textAlign": "center",
+      "textJustify": "middle",
+      "textColor": "#000000",
+      "strokeStyle": "solid",
+      "fillStyle": "none",
+      "connectorType": "bent",
+      "startPoint": {
+        "x": 1255.81689453125,
+        "y": 1377.7612915039062
+      },
+      "endPoint": {
+        "x": 1255.31689453125,
+        "y": 1479.7612915039062
+      },
+      "startShapeId": "f444ac6d-4105-4ab9-8c07-93fabe4471cd",
+      "endShapeId": "d148e369-3e89-44a0-ba1b-e1ea1434c67e",
+      "startConnectorPoint": "bottom",
+      "endConnectorPoint": "top",
+      "pointsStraight": [
+        {
+          "x": 420.5,
+          "y": 1317.5
+        },
+        {
+          "x": 420.5,
+          "y": 1317.5
+        }
+      ],
+      "pointsBent": [
+        {
+          "x": 1255.81689453125,
+          "y": 1377.7612915039062,
+          "direction": "bottom",
+          "fixedX": true,
+          "fixedY": true
+        },
+        {
+          "x": 1255.31689453125,
+          "y": 1423.7612915039062
+        },
+        {
+          "x": 1255.31689453125,
+          "y": 1479.7612915039062,
+          "direction": "top",
+          "fixedX": true,
+          "fixedY": true
+        }
+      ],
+      "pointsCurved": [
+        {
+          "x": 420.5,
+          "y": 1317.5
+        },
+        {
+          "x": 420.5,
+          "y": 1317.5
+        }
+      ],
+      "hasUserModifiedPath": false,
+      "bentConnectorSegments": [
+        {
+          "axis": "y",
+          "value": 1255.81689453125,
+          "start": 1377.7612915039062,
+          "end": 1423.7612915039062,
+          "locked": true
+        },
+        {
+          "axis": "y",
+          "value": 1255.31689453125,
+          "start": 1423.7612915039062,
+          "end": 1479.7612915039062,
+          "locked": false
+        }
+      ],
+      "bentConnectorRoutingMode": "auto",
+      "startArrowheadType": "none",
+      "endArrowheadType": "open-arrow",
+      "animated": false,
+      "labelPosition": 0.5
+    },
+    {
+      "id": "45687660-00d6-41de-9da3-650ea031f7c4",
+      "type": "service-card",
+      "x": 1532.81689453125,
+      "y": 1329.7612915039062,
+      "width": 196,
+      "height": 50,
+      "fill": "#ffffff",
+      "fillOpacity": 1,
+      "stroke": "#575757",
+      "strokeWidth": 4,
+      "strokeOpacity": 1,
+      "text": "",
+      "fontSize": 14,
+      "fontFamily": "Inter, system-ui, -apple-system, sans-serif",
+      "fontWeight": "normal",
+      "textDecoration": "none",
+      "textAlign": "center",
+      "textJustify": "middle",
+      "textColor": "#000000",
+      "strokeStyle": "solid",
+      "fillStyle": "solid",
+      "reactShapeData": {
+        "iconPath": "/icons/tech/languages/go-original.svg",
+        "serviceName": "Resend Email"
+      }
+    },
+    {
+      "id": "856b518e-22b8-4535-8812-a9919b516cb1",
+      "type": "connector",
+      "x": 930.609375,
+      "y": 1386.2960205078125,
+      "width": 179,
+      "height": 1,
+      "fill": "none",
+      "fillOpacity": 0,
+      "stroke": "#000000",
+      "strokeWidth": 2,
+      "strokeOpacity": 1,
+      "text": "",
+      "fontSize": 14,
+      "fontFamily": "Inter, system-ui, -apple-system, sans-serif",
+      "fontWeight": "normal",
+      "textDecoration": "none",
+      "textAlign": "center",
+      "textJustify": "middle",
+      "textColor": "#000000",
+      "strokeStyle": "solid",
+      "fillStyle": "none",
+      "connectorType": "bent",
+      "startPoint": {
+        "x": 1353.81689453125,
+        "y": 1353.7612915039062
+      },
+      "endPoint": {
+        "x": 1532.81689453125,
+        "y": 1354.7612915039062
+      },
+      "startShapeId": "f444ac6d-4105-4ab9-8c07-93fabe4471cd",
+      "endShapeId": "45687660-00d6-41de-9da3-650ea031f7c4",
+      "startConnectorPoint": "right",
+      "endConnectorPoint": "left",
+      "pointsStraight": [
+        {
+          "x": 488.5,
+          "y": 1292.5
+        },
+        {
+          "x": 488.5,
+          "y": 1292.5
+        }
+      ],
+      "pointsBent": [
+        {
+          "x": 1353.81689453125,
+          "y": 1353.7612915039062,
+          "direction": "right",
+          "fixedX": true,
+          "fixedY": true
+        },
+        {
+          "x": 1437.31689453125,
+          "y": 1353.7612915039062
+        },
+        {
+          "x": 1437.31689453125,
+          "y": 1354.7612915039062
+        },
+        {
+          "x": 1532.81689453125,
+          "y": 1354.7612915039062,
+          "direction": "left",
+          "fixedX": true,
+          "fixedY": true
+        }
+      ],
+      "pointsCurved": [
+        {
+          "x": 488.5,
+          "y": 1292.5
+        },
+        {
+          "x": 488.5,
+          "y": 1292.5
+        }
+      ],
+      "hasUserModifiedPath": false,
+      "bentConnectorSegments": [
+        {
+          "axis": "x",
+          "value": 1353.7612915039062,
+          "start": 1353.81689453125,
+          "end": 1437.31689453125,
+          "locked": true
+        },
+        {
+          "axis": "y",
+          "value": 1437.31689453125,
+          "start": 1353.7612915039062,
+          "end": 1354.7612915039062,
+          "locked": false
+        },
+        {
+          "axis": "x",
+          "value": 1354.7612915039062,
+          "start": 1437.31689453125,
+          "end": 1532.81689453125,
+          "locked": false
+        }
+      ],
+      "bentConnectorRoutingMode": "auto",
+      "startArrowheadType": "none",
+      "endArrowheadType": "open-arrow",
+      "animated": false,
+      "labelPosition": 0.5
+    },
+    {
+      "id": "4587b424-20c5-43cd-91d2-c3264f0cc7b7",
+      "type": "service-card",
+      "x": 1442.81689453125,
+      "y": 1134.7612915039062,
+      "width": 244,
+      "height": 50,
+      "fill": "#ffffff",
+      "fillOpacity": 1,
+      "stroke": "#575757",
+      "strokeWidth": 4,
+      "strokeOpacity": 1,
+      "text": "",
+      "fontSize": 14,
+      "fontFamily": "Inter, system-ui, -apple-system, sans-serif",
+      "fontWeight": "normal",
+      "textDecoration": "none",
+      "textAlign": "center",
+      "textJustify": "middle",
+      "textColor": "#000000",
+      "strokeStyle": "solid",
+      "fillStyle": "solid",
+      "reactShapeData": {
+        "iconPath": "/icons/tech/databases/mongodb-original.svg",
+        "serviceName": "Waitlisting Collection"
+      }
+    },
+    {
+      "id": "219d78f3-c480-4082-a669-81ae28c58e74",
+      "type": "service-card",
+      "x": 1442.81689453125,
+      "y": 1209.7612915039062,
+      "width": 284,
+      "height": 50,
+      "fill": "#ffffff",
+      "fillOpacity": 1,
+      "stroke": "#575757",
+      "strokeWidth": 4,
+      "strokeOpacity": 1,
+      "text": "",
+      "fontSize": 14,
+      "fontFamily": "Inter, system-ui, -apple-system, sans-serif",
+      "fontWeight": "normal",
+      "textDecoration": "none",
+      "textAlign": "center",
+      "textJustify": "middle",
+      "textColor": "#000000",
+      "strokeStyle": "solid",
+      "fillStyle": "solid",
+      "reactShapeData": {
+        "iconPath": "/icons/tech/databases/mongodb-original.svg",
+        "serviceName": "Feedback/Support Collection"
+      }
+    },
+    {
+      "id": "7c6cf6fd-a557-4a3e-8ba1-78360c1ffe5b",
+      "type": "connector",
+      "x": 832.609375,
+      "y": 1192.2960205078125,
+      "width": 187,
+      "height": 170,
+      "fill": "none",
+      "fillOpacity": 0,
+      "stroke": "#000000",
+      "strokeWidth": 2,
+      "strokeOpacity": 1,
+      "text": "",
+      "fontSize": 14,
+      "fontFamily": "Inter, system-ui, -apple-system, sans-serif",
+      "fontWeight": "normal",
+      "textDecoration": "none",
+      "textAlign": "center",
+      "textJustify": "middle",
+      "textColor": "#000000",
+      "strokeStyle": "solid",
+      "fillStyle": "none",
+      "connectorType": "bent",
+      "startPoint": {
+        "x": 1255.81689453125,
+        "y": 1329.7612915039062
+      },
+      "endPoint": {
+        "x": 1442.81689453125,
+        "y": 1159.7612915039062
+      },
+      "startShapeId": "f444ac6d-4105-4ab9-8c07-93fabe4471cd",
+      "endShapeId": "4587b424-20c5-43cd-91d2-c3264f0cc7b7",
+      "startConnectorPoint": "top",
+      "endConnectorPoint": "left",
+      "pointsStraight": [
+        {
+          "x": 390.5,
+          "y": 1267.5
+        },
+        {
+          "x": 390.5,
+          "y": 1267.5
+        }
+      ],
+      "pointsBent": [
+        {
+          "x": 1255.81689453125,
+          "y": 1329.7612915039062,
+          "direction": "top",
+          "fixedX": true,
+          "fixedY": true
+        },
+        {
+          "x": 1255.81689453125,
+          "y": 1159.7612915039062
+        },
+        {
+          "x": 1442.81689453125,
+          "y": 1159.7612915039062,
+          "direction": "left",
+          "fixedX": true,
+          "fixedY": true
+        }
+      ],
+      "pointsCurved": [
+        {
+          "x": 390.5,
+          "y": 1267.5
+        },
+        {
+          "x": 390.5,
+          "y": 1267.5
+        }
+      ],
+      "hasUserModifiedPath": false,
+      "bentConnectorSegments": [
+        {
+          "axis": "y",
+          "value": 1255.81689453125,
+          "start": 1329.7612915039062,
+          "end": 1159.7612915039062,
+          "locked": true
+        },
+        {
+          "axis": "x",
+          "value": 1159.7612915039062,
+          "start": 1255.81689453125,
+          "end": 1442.81689453125,
+          "locked": false
+        }
+      ],
+      "bentConnectorRoutingMode": "auto",
+      "startArrowheadType": "none",
+      "endArrowheadType": "open-arrow",
+      "animated": false,
+      "labelPosition": 0.5
+    },
+    {
+      "id": "72aab681-f3b7-42ee-a38c-26391f0b1636",
+      "type": "connector",
+      "x": 832.609375,
+      "y": 1267.2960205078125,
+      "width": 187,
+      "height": 95,
+      "fill": "none",
+      "fillOpacity": 0,
+      "stroke": "#000000",
+      "strokeWidth": 2,
+      "strokeOpacity": 1,
+      "text": "",
+      "fontSize": 14,
+      "fontFamily": "Inter, system-ui, -apple-system, sans-serif",
+      "fontWeight": "normal",
+      "textDecoration": "none",
+      "textAlign": "center",
+      "textJustify": "middle",
+      "textColor": "#000000",
+      "strokeStyle": "solid",
+      "fillStyle": "none",
+      "connectorType": "bent",
+      "startPoint": {
+        "x": 1255.81689453125,
+        "y": 1329.7612915039062
+      },
+      "endPoint": {
+        "x": 1442.81689453125,
+        "y": 1234.7612915039062
+      },
+      "startShapeId": "f444ac6d-4105-4ab9-8c07-93fabe4471cd",
+      "endShapeId": "219d78f3-c480-4082-a669-81ae28c58e74",
+      "startConnectorPoint": "top",
+      "endConnectorPoint": "left",
+      "pointsStraight": [
+        {
+          "x": 394.5546875,
+          "y": 1267.5
+        },
+        {
+          "x": 394.5546875,
+          "y": 1267.5
+        }
+      ],
+      "pointsBent": [
+        {
+          "x": 1255.81689453125,
+          "y": 1329.7612915039062,
+          "direction": "top",
+          "fixedX": true,
+          "fixedY": true
+        },
+        {
+          "x": 1255.81689453125,
+          "y": 1234.7612915039062
+        },
+        {
+          "x": 1442.81689453125,
+          "y": 1234.7612915039062,
+          "direction": "left",
+          "fixedX": true,
+          "fixedY": true
+        }
+      ],
+      "pointsCurved": [
+        {
+          "x": 394.5546875,
+          "y": 1267.5
+        },
+        {
+          "x": 394.5546875,
+          "y": 1267.5
+        }
+      ],
+      "hasUserModifiedPath": false,
+      "bentConnectorSegments": [
+        {
+          "axis": "y",
+          "value": 1255.81689453125,
+          "start": 1329.7612915039062,
+          "end": 1234.7612915039062,
+          "locked": true
+        },
+        {
+          "axis": "x",
+          "value": 1234.7612915039062,
+          "start": 1255.81689453125,
+          "end": 1442.81689453125,
+          "locked": false
+        }
+      ],
+      "bentConnectorRoutingMode": "auto",
+      "startArrowheadType": "none",
+      "endArrowheadType": "open-arrow",
+      "animated": false,
+      "labelPosition": 0.5
+    }
+  ],
+  "settings": {
+    "uiTheme": "dark",
+    "canvasTheme": {
+      "name": "Custom",
+      "backgroundColor": "#F2F2F2",
+      "gridColor": "#BCBCBC",
+      "gridStyle": "dots",
+      "showGrid": true
+    },
+    "snapToGrid": false
+  },
+  "metadata": {
+    "filename": "Flowstry Early Access.flowstry",
+    "exportedAt": "2025-12-22T10:31:14.395Z"
+  }
+}

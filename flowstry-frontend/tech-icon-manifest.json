@@ -1,0 +1,2008 @@
+[
+  {
+    "name": "Arrango Db",
+    "path": "/icons/tech/databases/ArrangoDB-plain.svg",
+    "provider": "Databases",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Fluentd",
+    "path": "/icons/tech/tools/Fluentd_icon.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Aarch64",
+    "path": "/icons/tech/os/aarch64-original.svg",
+    "provider": "Os",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Adonisjs",
+    "path": "/icons/tech/frameworks/adonisjs-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Aftereffects",
+    "path": "/icons/tech/tools/aftereffects-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Amazonwebservices",
+    "path": "/icons/tech/tools/amazonwebservices-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Anaconda",
+    "path": "/icons/tech/tools/anaconda-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Android",
+    "path": "/icons/tech/os/android-original.svg",
+    "provider": "Os",
+    "category": "Mobile",
+    "keywords": [
+      "mobile",
+      "google",
+      "java"
+    ]
+  },
+  {
+    "name": "Androidstudio",
+    "path": "/icons/tech/tools/androidstudio-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Angularjs",
+    "path": "/icons/tech/frameworks/angularjs-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Ansible",
+    "path": "/icons/tech/tools/ansible-original.svg",
+    "provider": "Tools",
+    "category": "Infrastructure",
+    "keywords": []
+  },
+  {
+    "name": "Apache",
+    "path": "/icons/tech/tools/apache-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Apachekafka",
+    "path": "/icons/tech/frameworks/apachekafka-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Apple",
+    "path": "/icons/tech/os/apple-original.svg",
+    "provider": "Os",
+    "category": "macOS",
+    "keywords": [
+      "desktop",
+      "mobile",
+      "macos"
+    ]
+  },
+  {
+    "name": "Argocd",
+    "path": "/icons/tech/tools/argocd-original.svg",
+    "provider": "Tools",
+    "category": "CI/CD",
+    "keywords": []
+  },
+  {
+    "name": "Atom",
+    "path": "/icons/tech/tools/atom-original.svg",
+    "provider": "Tools",
+    "category": "Editors",
+    "keywords": []
+  },
+  {
+    "name": "Azure",
+    "path": "/icons/tech/tools/azure-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Babel",
+    "path": "/icons/tech/frameworks/babel-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Backbonejs",
+    "path": "/icons/tech/frameworks/backbonejs-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Bash",
+    "path": "/icons/tech/languages/bash-original.svg",
+    "provider": "Languages",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Behance",
+    "path": "/icons/tech/tools/behance-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Bitbucket",
+    "path": "/icons/tech/tools/bitbucket-original.svg",
+    "provider": "Tools",
+    "category": "Version Control",
+    "keywords": []
+  },
+  {
+    "name": "Blender",
+    "path": "/icons/tech/tools/blender-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Bootstrap",
+    "path": "/icons/tech/frameworks/bootstrap-original.svg",
+    "provider": "Frameworks",
+    "category": "Frontend",
+    "keywords": []
+  },
+  {
+    "name": "Bower",
+    "path": "/icons/tech/frameworks/bower-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Bulma",
+    "path": "/icons/tech/frameworks/bulma-plain.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "C",
+    "path": "/icons/tech/languages/c-original.svg",
+    "provider": "Languages",
+    "category": "Systems",
+    "keywords": [
+      "systems",
+      "compiled",
+      "embedded"
+    ]
+  },
+  {
+    "name": "Cakephp",
+    "path": "/icons/tech/frameworks/cakephp-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Canva",
+    "path": "/icons/tech/tools/canva-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Centos",
+    "path": "/icons/tech/os/centos-original.svg",
+    "provider": "Os",
+    "category": "Linux",
+    "keywords": []
+  },
+  {
+    "name": "Ceylon",
+    "path": "/icons/tech/languages/ceylon-original.svg",
+    "provider": "Languages",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Chrome",
+    "path": "/icons/tech/tools/chrome-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Circleci",
+    "path": "/icons/tech/tools/circleci-plain.svg",
+    "provider": "Tools",
+    "category": "CI/CD",
+    "keywords": []
+  },
+  {
+    "name": "Clojure",
+    "path": "/icons/tech/languages/clojure-original.svg",
+    "provider": "Languages",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Clojurescript",
+    "path": "/icons/tech/languages/clojurescript-original.svg",
+    "provider": "Languages",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Cmake",
+    "path": "/icons/tech/frameworks/cmake-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Cockroach",
+    "path": "/icons/tech/databases/cockroach-icon.svg",
+    "provider": "Databases",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Codecov",
+    "path": "/icons/tech/tools/codecov-plain.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Codeigniter",
+    "path": "/icons/tech/frameworks/codeigniter-plain.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Codepen",
+    "path": "/icons/tech/tools/codepen-plain.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Coffeescript",
+    "path": "/icons/tech/languages/coffeescript-original.svg",
+    "provider": "Languages",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Composer",
+    "path": "/icons/tech/frameworks/composer-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Confluence",
+    "path": "/icons/tech/tools/confluence-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Couchdb",
+    "path": "/icons/tech/databases/couchdb-original.svg",
+    "provider": "Databases",
+    "category": "Document",
+    "keywords": []
+  },
+  {
+    "name": "Cplusplus",
+    "path": "/icons/tech/languages/cplusplus-original.svg",
+    "provider": "Languages",
+    "category": "Systems",
+    "keywords": [
+      "systems",
+      "compiled",
+      "game-dev"
+    ]
+  },
+  {
+    "name": "Crystal",
+    "path": "/icons/tech/languages/crystal-original.svg",
+    "provider": "Languages",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Csharp",
+    "path": "/icons/tech/languages/csharp-original.svg",
+    "provider": "Languages",
+    "category": "Backend",
+    "keywords": [
+      "backend",
+      "dotnet",
+      "game-dev"
+    ]
+  },
+  {
+    "name": "Css3",
+    "path": "/icons/tech/languages/css3-original.svg",
+    "provider": "Languages",
+    "category": "Frontend",
+    "keywords": []
+  },
+  {
+    "name": "Cucumber",
+    "path": "/icons/tech/frameworks/cucumber-plain.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "D3js",
+    "path": "/icons/tech/frameworks/d3js-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Dart",
+    "path": "/icons/tech/languages/dart-original.svg",
+    "provider": "Languages",
+    "category": "Mobile",
+    "keywords": []
+  },
+  {
+    "name": "Debian",
+    "path": "/icons/tech/os/debian-original.svg",
+    "provider": "Os",
+    "category": "Linux",
+    "keywords": []
+  },
+  {
+    "name": "Denojs",
+    "path": "/icons/tech/frameworks/denojs-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Devicon",
+    "path": "/icons/tech/tools/devicon-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Digitalocean",
+    "path": "/icons/tech/tools/digitalocean-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Discordjs",
+    "path": "/icons/tech/frameworks/discordjs-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Django",
+    "path": "/icons/tech/frameworks/django-plain.svg",
+    "provider": "Frameworks",
+    "category": "Backend",
+    "keywords": [
+      "backend",
+      "python",
+      "fullstack"
+    ]
+  },
+  {
+    "name": "Docker",
+    "path": "/icons/tech/tools/docker-original.svg",
+    "provider": "Tools",
+    "category": "Containers",
+    "keywords": [
+      "containerization",
+      "devops",
+      "microservices"
+    ]
+  },
+  {
+    "name": "Doctrine",
+    "path": "/icons/tech/frameworks/doctrine-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Dotnetcore",
+    "path": "/icons/tech/frameworks/dotnetcore-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Dropwizard",
+    "path": "/icons/tech/frameworks/dropwizard-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Drupal",
+    "path": "/icons/tech/frameworks/drupal-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Elasticco Kibana",
+    "path": "/icons/tech/tools/elasticco_kibana-icon.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Electron",
+    "path": "/icons/tech/frameworks/electron-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Eleventy",
+    "path": "/icons/tech/frameworks/eleventy-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Elixir",
+    "path": "/icons/tech/languages/elixir-original.svg",
+    "provider": "Languages",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Elm",
+    "path": "/icons/tech/languages/elm-original.svg",
+    "provider": "Languages",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Embeddedc",
+    "path": "/icons/tech/languages/embeddedc-original.svg",
+    "provider": "Languages",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Ember",
+    "path": "/icons/tech/frameworks/ember-original-wordmark.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Erlang",
+    "path": "/icons/tech/languages/erlang-original.svg",
+    "provider": "Languages",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Eslint",
+    "path": "/icons/tech/tools/eslint-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Express",
+    "path": "/icons/tech/frameworks/express-original.svg",
+    "provider": "Frameworks",
+    "category": "Backend",
+    "keywords": [
+      "backend",
+      "nodejs",
+      "api"
+    ]
+  },
+  {
+    "name": "Facebook",
+    "path": "/icons/tech/tools/facebook-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Fastapi",
+    "path": "/icons/tech/frameworks/fastapi-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Feathersjs",
+    "path": "/icons/tech/frameworks/feathersjs-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Fedora",
+    "path": "/icons/tech/os/fedora-original.svg",
+    "provider": "Os",
+    "category": "Linux",
+    "keywords": []
+  },
+  {
+    "name": "Figma",
+    "path": "/icons/tech/tools/figma-original.svg",
+    "provider": "Tools",
+    "category": "Design",
+    "keywords": []
+  },
+  {
+    "name": "Filezilla",
+    "path": "/icons/tech/tools/filezilla-plain.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Firebase",
+    "path": "/icons/tech/databases/firebase-plain.svg",
+    "provider": "Databases",
+    "category": "Document",
+    "keywords": []
+  },
+  {
+    "name": "Firefox",
+    "path": "/icons/tech/tools/firefox-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Flask",
+    "path": "/icons/tech/frameworks/flask-original.svg",
+    "provider": "Frameworks",
+    "category": "Backend",
+    "keywords": [
+      "backend",
+      "python",
+      "api"
+    ]
+  },
+  {
+    "name": "Flutter",
+    "path": "/icons/tech/frameworks/flutter-original.svg",
+    "provider": "Frameworks",
+    "category": "Mobile",
+    "keywords": []
+  },
+  {
+    "name": "Foundation",
+    "path": "/icons/tech/frameworks/foundation-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Fsharp",
+    "path": "/icons/tech/languages/fsharp-original.svg",
+    "provider": "Languages",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Gatling",
+    "path": "/icons/tech/tools/gatling-plain.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Gatsby",
+    "path": "/icons/tech/frameworks/gatsby-original.svg",
+    "provider": "Frameworks",
+    "category": "Fullstack",
+    "keywords": []
+  },
+  {
+    "name": "Gcc",
+    "path": "/icons/tech/tools/gcc-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Gentoo",
+    "path": "/icons/tech/os/gentoo-plain.svg",
+    "provider": "Os",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Gimp",
+    "path": "/icons/tech/tools/gimp-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Git",
+    "path": "/icons/tech/tools/git-original.svg",
+    "provider": "Tools",
+    "category": "Version Control",
+    "keywords": [
+      "version-control",
+      "collaboration"
+    ]
+  },
+  {
+    "name": "Github",
+    "path": "/icons/tech/tools/github-original.svg",
+    "provider": "Tools",
+    "category": "Version Control",
+    "keywords": []
+  },
+  {
+    "name": "Gitlab",
+    "path": "/icons/tech/tools/gitlab-original.svg",
+    "provider": "Tools",
+    "category": "Version Control",
+    "keywords": []
+  },
+  {
+    "name": "Go",
+    "path": "/icons/tech/languages/go-original.svg",
+    "provider": "Languages",
+    "category": "Backend",
+    "keywords": [
+      "backend",
+      "compiled",
+      "systems"
+    ]
+  },
+  {
+    "name": "Godot",
+    "path": "/icons/tech/frameworks/godot-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Google",
+    "path": "/icons/tech/tools/google-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Googlecloud",
+    "path": "/icons/tech/tools/googlecloud-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Gradle",
+    "path": "/icons/tech/frameworks/gradle-plain.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Grafana",
+    "path": "/icons/tech/tools/grafana-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Grails",
+    "path": "/icons/tech/frameworks/grails-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Graphql",
+    "path": "/icons/tech/frameworks/graphql-plain.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Groovy",
+    "path": "/icons/tech/languages/groovy-original.svg",
+    "provider": "Languages",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Grunt",
+    "path": "/icons/tech/frameworks/grunt-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Gulp",
+    "path": "/icons/tech/frameworks/gulp-plain.svg",
+    "provider": "Frameworks",
+    "category": "Build Tools",
+    "keywords": []
+  },
+  {
+    "name": "Handlebars",
+    "path": "/icons/tech/frameworks/handlebars-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Haskell",
+    "path": "/icons/tech/languages/haskell-original.svg",
+    "provider": "Languages",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Haxe",
+    "path": "/icons/tech/languages/haxe-original.svg",
+    "provider": "Languages",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Heroku",
+    "path": "/icons/tech/tools/heroku-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Html5",
+    "path": "/icons/tech/languages/html5-original.svg",
+    "provider": "Languages",
+    "category": "Frontend",
+    "keywords": []
+  },
+  {
+    "name": "Hugo",
+    "path": "/icons/tech/frameworks/hugo-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Ie10",
+    "path": "/icons/tech/tools/ie10-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Ifttt",
+    "path": "/icons/tech/tools/ifttt-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Illustrator",
+    "path": "/icons/tech/tools/illustrator-plain.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Inkscape",
+    "path": "/icons/tech/tools/inkscape-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Intellij",
+    "path": "/icons/tech/tools/intellij-original.svg",
+    "provider": "Tools",
+    "category": "Editors",
+    "keywords": []
+  },
+  {
+    "name": "Ionic",
+    "path": "/icons/tech/frameworks/ionic-original.svg",
+    "provider": "Frameworks",
+    "category": "Mobile",
+    "keywords": []
+  },
+  {
+    "name": "Jamstack",
+    "path": "/icons/tech/frameworks/jamstack-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Jasmine",
+    "path": "/icons/tech/frameworks/jasmine-plain.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Java",
+    "path": "/icons/tech/languages/java-original.svg",
+    "provider": "Languages",
+    "category": "Backend",
+    "keywords": [
+      "backend",
+      "enterprise",
+      "jvm"
+    ]
+  },
+  {
+    "name": "Javascript",
+    "path": "/icons/tech/languages/javascript-original.svg",
+    "provider": "Languages",
+    "category": "Frontend",
+    "keywords": [
+      "frontend",
+      "web",
+      "scripting",
+      "browser"
+    ]
+  },
+  {
+    "name": "Jeet",
+    "path": "/icons/tech/frameworks/jeet-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Jenkins",
+    "path": "/icons/tech/tools/jenkins-original.svg",
+    "provider": "Tools",
+    "category": "CI/CD",
+    "keywords": [
+      "ci-cd",
+      "automation",
+      "devops"
+    ]
+  },
+  {
+    "name": "Jest",
+    "path": "/icons/tech/frameworks/jest-plain.svg",
+    "provider": "Frameworks",
+    "category": "Testing",
+    "keywords": []
+  },
+  {
+    "name": "Jetbrains",
+    "path": "/icons/tech/tools/jetbrains-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Jira",
+    "path": "/icons/tech/tools/jira-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Jquery",
+    "path": "/icons/tech/frameworks/jquery-original.svg",
+    "provider": "Frameworks",
+    "category": "Frontend",
+    "keywords": []
+  },
+  {
+    "name": "Julia",
+    "path": "/icons/tech/languages/julia-original.svg",
+    "provider": "Languages",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Jupyter",
+    "path": "/icons/tech/tools/jupyter-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "K3s",
+    "path": "/icons/tech/tools/k3s-original.svg",
+    "provider": "Tools",
+    "category": "Containers",
+    "keywords": []
+  },
+  {
+    "name": "Kaggle",
+    "path": "/icons/tech/tools/kaggle-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Karma",
+    "path": "/icons/tech/frameworks/karma-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Kotlin",
+    "path": "/icons/tech/languages/kotlin-original.svg",
+    "provider": "Languages",
+    "category": "Mobile",
+    "keywords": [
+      "mobile",
+      "android",
+      "jvm"
+    ]
+  },
+  {
+    "name": "Krakenjs",
+    "path": "/icons/tech/frameworks/krakenjs-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Kubernetes",
+    "path": "/icons/tech/tools/kubernetes-plain.svg",
+    "provider": "Tools",
+    "category": "Containers",
+    "keywords": [
+      "orchestration",
+      "devops",
+      "containers"
+    ]
+  },
+  {
+    "name": "Labview",
+    "path": "/icons/tech/languages/labview-original.svg",
+    "provider": "Languages",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Laravel",
+    "path": "/icons/tech/frameworks/laravel-plain.svg",
+    "provider": "Frameworks",
+    "category": "Backend",
+    "keywords": [
+      "backend",
+      "php",
+      "fullstack"
+    ]
+  },
+  {
+    "name": "Latex",
+    "path": "/icons/tech/languages/latex-original.svg",
+    "provider": "Languages",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Less",
+    "path": "/icons/tech/languages/less-plain-wordmark.svg",
+    "provider": "Languages",
+    "category": "Frontend",
+    "keywords": []
+  },
+  {
+    "name": "Linkedin",
+    "path": "/icons/tech/tools/linkedin-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Linux",
+    "path": "/icons/tech/os/linux-original.svg",
+    "provider": "Os",
+    "category": "Linux",
+    "keywords": [
+      "server",
+      "open-source",
+      "unix"
+    ]
+  },
+  {
+    "name": "Lua",
+    "path": "/icons/tech/languages/lua-original.svg",
+    "provider": "Languages",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Magento",
+    "path": "/icons/tech/frameworks/magento-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Markdown",
+    "path": "/icons/tech/languages/markdown-original.svg",
+    "provider": "Languages",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Materialui",
+    "path": "/icons/tech/frameworks/materialui-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Matlab",
+    "path": "/icons/tech/tools/matlab-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Maya",
+    "path": "/icons/tech/tools/maya-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Meteor",
+    "path": "/icons/tech/frameworks/meteor-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Microsoftsqlserver",
+    "path": "/icons/tech/databases/microsoftsqlserver-plain.svg",
+    "provider": "Databases",
+    "category": "SQL",
+    "keywords": []
+  },
+  {
+    "name": "Minitab",
+    "path": "/icons/tech/tools/minitab-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Mocha",
+    "path": "/icons/tech/frameworks/mocha-plain.svg",
+    "provider": "Frameworks",
+    "category": "Testing",
+    "keywords": []
+  },
+  {
+    "name": "Mongodb",
+    "path": "/icons/tech/databases/mongodb-original.svg",
+    "provider": "Databases",
+    "category": "Document",
+    "keywords": [
+      "nosql",
+      "document",
+      "json"
+    ]
+  },
+  {
+    "name": "Moodle",
+    "path": "/icons/tech/frameworks/moodle-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Msdos",
+    "path": "/icons/tech/os/msdos-original.svg",
+    "provider": "Os",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Mysql",
+    "path": "/icons/tech/databases/mysql-original.svg",
+    "provider": "Databases",
+    "category": "SQL",
+    "keywords": [
+      "sql",
+      "relational",
+      "open-source"
+    ]
+  },
+  {
+    "name": "Neo4j",
+    "path": "/icons/tech/databases/neo4j-original.svg",
+    "provider": "Databases",
+    "category": "Graph",
+    "keywords": [
+      "nosql",
+      "graph",
+      "relationships"
+    ]
+  },
+  {
+    "name": "Nestjs",
+    "path": "/icons/tech/frameworks/nestjs-plain.svg",
+    "provider": "Frameworks",
+    "category": "Backend",
+    "keywords": []
+  },
+  {
+    "name": "Networkx",
+    "path": "/icons/tech/frameworks/networkx-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Nextjs",
+    "path": "/icons/tech/frameworks/nextjs-original.svg",
+    "provider": "Frameworks",
+    "category": "Fullstack",
+    "keywords": [
+      "fullstack",
+      "ssr",
+      "react"
+    ]
+  },
+  {
+    "name": "Nginx",
+    "path": "/icons/tech/tools/nginx-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": [
+      "web-server",
+      "reverse-proxy",
+      "load-balancer"
+    ]
+  },
+  {
+    "name": "Nixos",
+    "path": "/icons/tech/os/nixos-original.svg",
+    "provider": "Os",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Nodejs",
+    "path": "/icons/tech/frameworks/nodejs-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Npm",
+    "path": "/icons/tech/frameworks/npm-original-wordmark.svg",
+    "provider": "Frameworks",
+    "category": "Build Tools",
+    "keywords": []
+  },
+  {
+    "name": "Nuget",
+    "path": "/icons/tech/frameworks/nuget-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Numpy",
+    "path": "/icons/tech/frameworks/numpy-original.svg",
+    "provider": "Frameworks",
+    "category": "ML/Data",
+    "keywords": []
+  },
+  {
+    "name": "Nuxtjs",
+    "path": "/icons/tech/frameworks/nuxtjs-original.svg",
+    "provider": "Frameworks",
+    "category": "Fullstack",
+    "keywords": []
+  },
+  {
+    "name": "Objectivec",
+    "path": "/icons/tech/languages/objectivec-plain.svg",
+    "provider": "Languages",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Ocaml",
+    "path": "/icons/tech/languages/ocaml-original.svg",
+    "provider": "Languages",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Openal",
+    "path": "/icons/tech/frameworks/openal-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Opencv",
+    "path": "/icons/tech/frameworks/opencv-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Opengl",
+    "path": "/icons/tech/frameworks/opengl-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Opensuse",
+    "path": "/icons/tech/os/opensuse-original.svg",
+    "provider": "Os",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Opera",
+    "path": "/icons/tech/tools/opera-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Oracle",
+    "path": "/icons/tech/databases/oracle-original.svg",
+    "provider": "Databases",
+    "category": "SQL",
+    "keywords": []
+  },
+  {
+    "name": "Packer",
+    "path": "/icons/tech/tools/packer-original.svg",
+    "provider": "Tools",
+    "category": "Infrastructure",
+    "keywords": []
+  },
+  {
+    "name": "Pandas",
+    "path": "/icons/tech/frameworks/pandas-original.svg",
+    "provider": "Frameworks",
+    "category": "ML/Data",
+    "keywords": []
+  },
+  {
+    "name": "Perl",
+    "path": "/icons/tech/languages/perl-original.svg",
+    "provider": "Languages",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Phalcon",
+    "path": "/icons/tech/frameworks/phalcon-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Phoenix",
+    "path": "/icons/tech/frameworks/phoenix-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Photoshop",
+    "path": "/icons/tech/tools/photoshop-plain.svg",
+    "provider": "Tools",
+    "category": "Design",
+    "keywords": []
+  },
+  {
+    "name": "Php",
+    "path": "/icons/tech/languages/php-original.svg",
+    "provider": "Languages",
+    "category": "Backend",
+    "keywords": [
+      "backend",
+      "web",
+      "scripting"
+    ]
+  },
+  {
+    "name": "Phpstorm",
+    "path": "/icons/tech/tools/phpstorm-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Podman",
+    "path": "/icons/tech/tools/podman-original.svg",
+    "provider": "Tools",
+    "category": "Containers",
+    "keywords": []
+  },
+  {
+    "name": "Polygon",
+    "path": "/icons/tech/tools/polygon-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Postgresql",
+    "path": "/icons/tech/databases/postgresql-original.svg",
+    "provider": "Databases",
+    "category": "SQL",
+    "keywords": [
+      "sql",
+      "relational",
+      "open-source"
+    ]
+  },
+  {
+    "name": "Premierepro",
+    "path": "/icons/tech/tools/premierepro-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Processing",
+    "path": "/icons/tech/frameworks/processing-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Prometheus",
+    "path": "/icons/tech/tools/prometheus-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Protractor",
+    "path": "/icons/tech/frameworks/protractor-plain.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Putty",
+    "path": "/icons/tech/tools/putty-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Pycharm",
+    "path": "/icons/tech/tools/pycharm-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Pytest",
+    "path": "/icons/tech/frameworks/pytest-original.svg",
+    "provider": "Frameworks",
+    "category": "Testing",
+    "keywords": []
+  },
+  {
+    "name": "Python",
+    "path": "/icons/tech/languages/python-original.svg",
+    "provider": "Languages",
+    "category": "Backend",
+    "keywords": [
+      "backend",
+      "scripting",
+      "ml",
+      "data-science"
+    ]
+  },
+  {
+    "name": "Pytorch",
+    "path": "/icons/tech/frameworks/pytorch-original.svg",
+    "provider": "Frameworks",
+    "category": "ML/Data",
+    "keywords": []
+  },
+  {
+    "name": "R",
+    "path": "/icons/tech/languages/r-original.svg",
+    "provider": "Languages",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Rails",
+    "path": "/icons/tech/frameworks/rails-plain.svg",
+    "provider": "Frameworks",
+    "category": "Backend",
+    "keywords": [
+      "backend",
+      "ruby",
+      "fullstack"
+    ]
+  },
+  {
+    "name": "Raspberrypi",
+    "path": "/icons/tech/os/raspberrypi-original.svg",
+    "provider": "Os",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "React",
+    "path": "/icons/tech/frameworks/react-original.svg",
+    "provider": "Frameworks",
+    "category": "Frontend",
+    "keywords": [
+      "frontend",
+      "ui",
+      "spa"
+    ]
+  },
+  {
+    "name": "Redhat",
+    "path": "/icons/tech/os/redhat-original.svg",
+    "provider": "Os",
+    "category": "Linux",
+    "keywords": []
+  },
+  {
+    "name": "Redis",
+    "path": "/icons/tech/databases/redis-original.svg",
+    "provider": "Databases",
+    "category": "Key-Value",
+    "keywords": [
+      "nosql",
+      "cache",
+      "key-value"
+    ]
+  },
+  {
+    "name": "Redux",
+    "path": "/icons/tech/frameworks/redux-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Rocksdb",
+    "path": "/icons/tech/databases/rocksdb-plain.svg",
+    "provider": "Databases",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Rspec",
+    "path": "/icons/tech/frameworks/rspec-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Rstudio",
+    "path": "/icons/tech/tools/rstudio-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Rubymine",
+    "path": "/icons/tech/tools/rubymine-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Rust",
+    "path": "/icons/tech/languages/rust-plain.svg",
+    "provider": "Languages",
+    "category": "Backend",
+    "keywords": [
+      "systems",
+      "compiled",
+      "memory-safe"
+    ]
+  },
+  {
+    "name": "Safari",
+    "path": "/icons/tech/tools/safari-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Salesforce",
+    "path": "/icons/tech/tools/salesforce-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Sass",
+    "path": "/icons/tech/languages/sass-original.svg",
+    "provider": "Languages",
+    "category": "Frontend",
+    "keywords": []
+  },
+  {
+    "name": "Scala",
+    "path": "/icons/tech/languages/scala-original.svg",
+    "provider": "Languages",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Sdl",
+    "path": "/icons/tech/frameworks/sdl-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Selenium",
+    "path": "/icons/tech/tools/selenium-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Sequelize",
+    "path": "/icons/tech/frameworks/sequelize-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Shopware",
+    "path": "/icons/tech/frameworks/shopware-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Sketch",
+    "path": "/icons/tech/tools/sketch-original.svg",
+    "provider": "Tools",
+    "category": "Design",
+    "keywords": []
+  },
+  {
+    "name": "Slack",
+    "path": "/icons/tech/tools/slack-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Socketio",
+    "path": "/icons/tech/frameworks/socketio-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Solidity",
+    "path": "/icons/tech/languages/solidity-original.svg",
+    "provider": "Languages",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Sourcetree",
+    "path": "/icons/tech/tools/sourcetree-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Spring",
+    "path": "/icons/tech/frameworks/spring-original.svg",
+    "provider": "Frameworks",
+    "category": "Backend",
+    "keywords": [
+      "backend",
+      "java",
+      "enterprise"
+    ]
+  },
+  {
+    "name": "Spss",
+    "path": "/icons/tech/tools/spss-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Sqlalchemy",
+    "path": "/icons/tech/frameworks/sqlalchemy-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Sqlite",
+    "path": "/icons/tech/databases/sqlite-original.svg",
+    "provider": "Databases",
+    "category": "SQL",
+    "keywords": [
+      "sql",
+      "embedded",
+      "lightweight"
+    ]
+  },
+  {
+    "name": "Ssh",
+    "path": "/icons/tech/tools/ssh-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Storybook",
+    "path": "/icons/tech/frameworks/storybook-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Stylus",
+    "path": "/icons/tech/languages/stylus-original.svg",
+    "provider": "Languages",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Subversion",
+    "path": "/icons/tech/tools/subversion-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Svelte",
+    "path": "/icons/tech/frameworks/svelte-original.svg",
+    "provider": "Frameworks",
+    "category": "Frontend",
+    "keywords": []
+  },
+  {
+    "name": "Swift",
+    "path": "/icons/tech/languages/swift-original.svg",
+    "provider": "Languages",
+    "category": "Mobile",
+    "keywords": [
+      "mobile",
+      "ios",
+      "macos"
+    ]
+  },
+  {
+    "name": "Symfony",
+    "path": "/icons/tech/frameworks/symfony-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Tailwindcss",
+    "path": "/icons/tech/frameworks/tailwindcss-plain.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Tensorflow",
+    "path": "/icons/tech/frameworks/tensorflow-original.svg",
+    "provider": "Frameworks",
+    "category": "ML/Data",
+    "keywords": []
+  },
+  {
+    "name": "Terraform",
+    "path": "/icons/tech/tools/terraform-original.svg",
+    "provider": "Tools",
+    "category": "Infrastructure",
+    "keywords": [
+      "infrastructure",
+      "iac",
+      "devops"
+    ]
+  },
+  {
+    "name": "Threejs",
+    "path": "/icons/tech/frameworks/threejs-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Tomcat",
+    "path": "/icons/tech/tools/tomcat-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Tortoisegit",
+    "path": "/icons/tech/tools/tortoisegit-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Towergit",
+    "path": "/icons/tech/tools/towergit-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Travis",
+    "path": "/icons/tech/tools/travis-plain.svg",
+    "provider": "Tools",
+    "category": "CI/CD",
+    "keywords": []
+  },
+  {
+    "name": "Trello",
+    "path": "/icons/tech/tools/trello-plain.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Twitter",
+    "path": "/icons/tech/tools/twitter-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Typescript",
+    "path": "/icons/tech/languages/typescript-original.svg",
+    "provider": "Languages",
+    "category": "Frontend",
+    "keywords": [
+      "frontend",
+      "backend",
+      "typed",
+      "web"
+    ]
+  },
+  {
+    "name": "Ubuntu",
+    "path": "/icons/tech/os/ubuntu-plain.svg",
+    "provider": "Os",
+    "category": "Linux",
+    "keywords": [
+      "server",
+      "desktop",
+      "linux"
+    ]
+  },
+  {
+    "name": "Unity",
+    "path": "/icons/tech/frameworks/unity-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Unix",
+    "path": "/icons/tech/os/unix-original.svg",
+    "provider": "Os",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Unrealengine",
+    "path": "/icons/tech/frameworks/unrealengine-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Uwsgi",
+    "path": "/icons/tech/tools/uwsgi-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Vagrant",
+    "path": "/icons/tech/tools/vagrant-original.svg",
+    "provider": "Tools",
+    "category": "Infrastructure",
+    "keywords": []
+  },
+  {
+    "name": "Vim",
+    "path": "/icons/tech/tools/vim-original.svg",
+    "provider": "Tools",
+    "category": "Editors",
+    "keywords": []
+  },
+  {
+    "name": "Visualstudio",
+    "path": "/icons/tech/tools/visualstudio-plain.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Vscode",
+    "path": "/icons/tech/tools/vscode-original.svg",
+    "provider": "Tools",
+    "category": "Editors",
+    "keywords": [
+      "editor",
+      "ide",
+      "microsoft"
+    ]
+  },
+  {
+    "name": "Vuejs",
+    "path": "/icons/tech/frameworks/vuejs-original.svg",
+    "provider": "Frameworks",
+    "category": "Frontend",
+    "keywords": [
+      "frontend",
+      "ui",
+      "spa"
+    ]
+  },
+  {
+    "name": "Vuestorefront",
+    "path": "/icons/tech/frameworks/vuestorefront-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Vuetify",
+    "path": "/icons/tech/frameworks/vuetify-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Webflow",
+    "path": "/icons/tech/tools/webflow-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Weblate",
+    "path": "/icons/tech/tools/weblate-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Webpack",
+    "path": "/icons/tech/frameworks/webpack-original.svg",
+    "provider": "Frameworks",
+    "category": "Build Tools",
+    "keywords": []
+  },
+  {
+    "name": "Webstorm",
+    "path": "/icons/tech/tools/webstorm-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Windows8",
+    "path": "/icons/tech/os/windows8-original.svg",
+    "provider": "Os",
+    "category": "Windows",
+    "keywords": [
+      "desktop",
+      "enterprise",
+      "microsoft"
+    ]
+  },
+  {
+    "name": "Woocommerce",
+    "path": "/icons/tech/frameworks/woocommerce-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Wordpress",
+    "path": "/icons/tech/frameworks/wordpress-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Xcode",
+    "path": "/icons/tech/tools/xcode-original.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Xd",
+    "path": "/icons/tech/tools/xd-plain.svg",
+    "provider": "Tools",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Yarn",
+    "path": "/icons/tech/frameworks/yarn-original.svg",
+    "provider": "Frameworks",
+    "category": "Build Tools",
+    "keywords": []
+  },
+  {
+    "name": "Yii",
+    "path": "/icons/tech/frameworks/yii-original.svg",
+    "provider": "Frameworks",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Yunohost",
+    "path": "/icons/tech/os/yunohost-original.svg",
+    "provider": "Os",
+    "category": "Other",
+    "keywords": []
+  },
+  {
+    "name": "Zig",
+    "path": "/icons/tech/languages/zig-original.svg",
+    "provider": "Languages",
+    "category": "Systems",
+    "keywords": []
+  }
+]
