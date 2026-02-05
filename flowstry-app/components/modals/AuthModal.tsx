@@ -26,6 +26,7 @@ export default function AuthModal({
   const [password, setPassword] = useState('');
   const [localError, setLocalError] = useState<string | null>(null);
   const [success, setSuccess] = useState(false);
+  const [agreedToTerms, setAgreedToTerms] = useState(false);
   const [mounted, setMounted] = useState(false);
 
   // Track if component is mounted (for portal)
@@ -37,11 +38,11 @@ export default function AuthModal({
   // Reset form when modal opens
   useEffect(() => {
     if (isOpen) {
-      setName('');
       setEmail('');
       setPassword('');
       setLocalError(null);
       setSuccess(false);
+      setAgreedToTerms(false);
       clearError();
     }
   }, [isOpen, clearError]);
@@ -84,6 +85,11 @@ export default function AuthModal({
       return false;
     }
 
+    if (tab === 'signup' && !agreedToTerms) {
+      setLocalError('You must agree to the Terms and Privacy Policy');
+      return false;
+    }
+
     return true;
   };
 
@@ -114,6 +120,7 @@ export default function AuthModal({
   const switchTab = (newTab: AuthTab) => {
     setTab(newTab);
     setLocalError(null);
+    setAgreedToTerms(false);
     clearError();
   };
 
@@ -267,7 +274,39 @@ export default function AuthModal({
                       At least 8 characters
                     </p>
                   )}
-                </div>
+                  </div>
+
+                  {tab === 'signup' && (
+                    <div className="flex items-center gap-3 px-1">
+                      <input
+                        id="terms"
+                        type="checkbox"
+                        checked={agreedToTerms}
+                        onChange={(e) => setAgreedToTerms(e.target.checked)}
+                        className="w-4 h-4 rounded border-zinc-600 bg-zinc-800 text-[#36C3AD] focus:ring-[#36C3AD] focus:ring-offset-zinc-900 cursor-pointer"
+                      />
+                      <label htmlFor="terms" className="text-xs text-zinc-400 select-none cursor-pointer">
+                        I agree to the{' '}
+                        <a
+                          href="https://flowstry.com/terms-and-conditions"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-[#36C3AD] hover:underline hover:text-[#5DD3C3]"
+                        >
+                          Terms and Conditions
+                        </a>{' '}
+                        and{' '}
+                        <a
+                          href="https://flowstry.com/privacy-policy"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-[#36C3AD] hover:underline hover:text-[#5DD3C3]"
+                        >
+                          Privacy Policy
+                        </a>
+                      </label>
+                    </div>
+                  )}
 
                 {/* Error */}
                 {displayError && (
@@ -280,7 +319,7 @@ export default function AuthModal({
                 {/* Submit */}
                 <button
                   type="submit"
-                  disabled={isLoading}
+                    disabled={isLoading || (tab === 'signup' && !agreedToTerms)}
                   className="w-full py-3 rounded-lg bg-[#36C3AD] text-zinc-900 font-semibold hover:bg-[#5DD3C3] transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
                 >
                   {isLoading ? (
