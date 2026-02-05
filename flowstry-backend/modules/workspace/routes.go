@@ -1,13 +1,14 @@
 package workspace
 
 import (
+	"fmt"
+
 	"github.com/flowstry/flowstry-backend/middleware"
 	"github.com/flowstry/flowstry-backend/modules/auth/services"
 	"github.com/flowstry/flowstry-backend/modules/workspace/controllers"
 	workspaceServices "github.com/flowstry/flowstry-backend/modules/workspace/services"
 	"github.com/flowstry/flowstry-backend/storage"
 	"github.com/gofiber/fiber/v2"
-	"fmt"
 )
 
 // SetupRoutes configures workspace routes
@@ -49,7 +50,6 @@ func SetupRoutes(app *fiber.App, authService *services.AuthService, gcsClient *s
 	workspaces.Get("/:id", workspaceController.Get)
 	workspaces.Get("/:id/key", workspaceController.GetKey)
 	workspaces.Put("/:id", workspaceController.Update)
-	workspaces.Put("/:id", workspaceController.Update)
 	workspaces.Delete("/:id", workspaceController.Delete)
 	workspaces.Get("/:workspaceId/trash", diagramController.ListTrash) // Workspace trash
 
@@ -72,7 +72,6 @@ func SetupRoutes(app *fiber.App, authService *services.AuthService, gcsClient *s
 	workspaces.Post("/:workspaceId/folders", folderController.Create)
 	workspaces.Get("/:workspaceId/folders/:id", folderController.Get)
 	workspaces.Put("/:workspaceId/folders/:id", folderController.Update)
-	workspaces.Put("/:workspaceId/folders/:id", folderController.Update)
 	workspaces.Delete("/:workspaceId/folders/:id", folderController.Delete)
 	workspaces.Post("/:workspaceId/folders/:id/restore", folderController.Restore)
 	workspaces.Delete("/:workspaceId/folders/:id/permanent", folderController.HardDelete)
@@ -84,7 +83,6 @@ func SetupRoutes(app *fiber.App, authService *services.AuthService, gcsClient *s
 	workspaces.Post("/:workspaceId/diagrams", diagramController.Create)
 	workspaces.Get("/:workspaceId/diagrams/:id", diagramController.Get)
 	workspaces.Get("/:workspaceId/diagrams/:id/download", diagramController.Download)
-	workspaces.Put("/:workspaceId/diagrams/:id", diagramController.Update)
 	workspaces.Put("/:workspaceId/diagrams/:id", diagramController.Update)
 	workspaces.Delete("/:workspaceId/diagrams/:id", diagramController.Delete)
 	workspaces.Post("/:workspaceId/diagrams/:id/restore", diagramController.Restore)

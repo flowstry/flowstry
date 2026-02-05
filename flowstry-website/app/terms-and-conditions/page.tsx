@@ -22,12 +22,15 @@ export default function TermsAndConditions() {
             <p>
               Welcome to <strong>Flowstry</strong>! "Flowstry" refers to the open-source project and its maintainers. These Terms and Conditions ("Terms") govern your use of the Flowstry application and services (collectively, the "Service"). By accessing or using the Service, you agree to be bound by these Terms.
             </p>
+            <p>
+              <strong>Applicability:</strong> These Terms apply fully when you register for an account and log in to the Service. If you use the standard version of Flowstry without logging in, your data is stored locally within your browser, and no personal data is sent to our servers.
+            </p>
 
             <section>
               <h2 className="text-2xl font-semibold text-white mb-4">1. Accounts</h2>
               <ol className="list-decimal pl-5 space-y-2">
                 <li><strong>Registration:</strong> You must register for an account to access certain features. You agree to provide accurate, current, and complete information during the registration process.</li>
-                <li><strong>Security:</strong> You are responsible for safeguarding your account credentials. You agree not to disclose your password (including any Workspace Encryption Passwords) to any third party. You are responsible for any activity using your account.</li>
+                <li><strong>Security:</strong> You are responsible for safeguarding your account credentials. You agree not to disclose your password to any third party. You are responsible for any activity using your account.</li>
               </ol>
             </section>
 
@@ -36,23 +39,29 @@ export default function TermsAndConditions() {
               <ol className="list-decimal pl-5 space-y-2">
                 <li><strong>Ownership:</strong> You retain all rights and ownership of the diagrams, workspaces, and other content you create ("User Content").</li>
                 <li><strong>License:</strong> You grant Flowstry a worldwide, non-exclusive, royalty-free license to use, host, store, reproduce, modify, and create derivative works (such as thumbnails) of your User Content <em>solely for the purpose of operating, promoting, and improving the Service</em>. This license does not transfer ownership of your User Content and does not grant Flowstry rights beyond operating the Service.</li>
-                <li><strong>Encrypted Content:</strong> For content secured with our End-to-End Encryption feature, you acknowledge that Flowstry cannot access the content to provide features that require content analysis.</li>
+
               </ol>
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-white mb-4">3. Encryption & Data Loss</h2>
-              <ol className="list-decimal pl-5 space-y-2">
-                <li><strong>User Responsibility:</strong> If you enable End-to-End Encryption on a workspace, you are solely responsible for managing and safeguarding the encryption password/keys.</li>
-                <li><strong>No Recovery:</strong> Flowstry <strong>does not</strong> store your encryption password. If you lose or forget the password for an encrypted workspace, the data therein will be permanently inaccessible. Flowstry <strong>cannot</strong> recover this data for you.</li>
-                <li><strong>Liability:</strong> We are not liable for any loss of data resulting from lost passwords, corrupted keys, or your failure to secure your encryption credentials.</li>
-              </ol>
+              <h2 className="text-2xl font-semibold text-white mb-4">3. Early Access & Data Backup</h2>
+              <p>
+                Flowstry is currently in an <strong>Early Access</strong> (Beta) phase. During this period, we do <strong>not</strong> have strict or guaranteed data backup processes in place.
+              </p>
+              <ul className="list-disc pl-5 space-y-2 mt-2">
+                <li>You acknowledge that the Service may experience frequent downtime or interruptions.</li>
+                <li>There is a possibility of data loss.</li>
+                <li>You are solely responsible for maintaining local copies of your critical diagrams and data.</li>
+              </ul>
+              <p className="mt-2">
+                We are working to improve stability, but strictly during this Early Access phase, the Service is provided for testing and feedback purposes.
+              </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-semibold text-white mb-4">4. Open Source vs. Hosted Service</h2>
               <p>
-                These Terms apply specifically to the hosted Service provided at [Your URL]. The underlying software for Flowstry may be available under an open-source license; however, your use of this hosted Service is subject to these Terms.
+                These Terms apply specifically to the hosted Service provided at https://flowstry.com. The underlying software for Flowstry is strictly <strong>Open Source</strong>. We do not use closed-source software in the project codebase itself, with the exception of necessary third-party integrations: Google Authentication, MongoDB (database service), and Google Cloud Platform (hosting infrastructure).
               </p>
             </section>
 
@@ -95,7 +104,7 @@ export default function TermsAndConditions() {
               <p className="mb-2">
                 If you have any questions about these Terms, please contact us at:
               </p>
-              <a href="mailto:support@flowstry.com" className="text-blue-400 hover:text-blue-300 transition-colors">support@flowstry.com</a>
+              <a href="mailto:info@flowstry.com" className="text-blue-400 hover:text-blue-300 transition-colors">info@flowstry.com</a>
             </section>
           </div>
         </div>

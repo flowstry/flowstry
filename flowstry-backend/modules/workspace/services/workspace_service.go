@@ -331,9 +331,6 @@ func (s *WorkspaceService) VerifyAccess(ctx context.Context, workspaceID, userID
 	return err
 }
 
-// VerifyOwnership is deprecated, use VerifyAccess with role checks instead
-// Kept for backward compatibility
-func (s *WorkspaceService) VerifyOwnership(ctx context.Context, workspaceID, userID primitive.ObjectID) error {
 
 // GetWorkspaceKey retrieves the decrypted workspace key (Admin+ only)
 func (s *WorkspaceService) GetWorkspaceKey(ctx context.Context, workspaceID, userID primitive.ObjectID) ([]byte, error) {

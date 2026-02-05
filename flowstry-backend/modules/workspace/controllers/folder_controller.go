@@ -80,7 +80,7 @@ func (fc *FolderController) List(c *fiber.Ctx) error {
 	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
 	defer cancel()
 
-	if err := fc.workspaceService.VerifyOwnership(ctx, workspaceID, userID); err != nil {
+	if err := fc.workspaceService.VerifyAccess(ctx, workspaceID, userID); err != nil {
 		if err == services.ErrWorkspaceNotFound {
 			return utils.NotFound(c, "Workspace not found")
 		}
@@ -120,7 +120,7 @@ func (fc *FolderController) Get(c *fiber.Ctx) error {
 	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
 	defer cancel()
 
-	if err := fc.workspaceService.VerifyOwnership(ctx, workspaceID, userID); err != nil {
+	if err := fc.workspaceService.VerifyAccess(ctx, workspaceID, userID); err != nil {
 		if err == services.ErrWorkspaceNotFound {
 			return utils.NotFound(c, "Workspace not found")
 		}
@@ -307,7 +307,7 @@ func (fc *FolderController) ListTrash(c *fiber.Ctx) error {
 	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
 	defer cancel()
 
-	if err := fc.workspaceService.VerifyOwnership(ctx, workspaceID, userID); err != nil {
+	if err := fc.workspaceService.VerifyAccess(ctx, workspaceID, userID); err != nil {
 		if err == services.ErrWorkspaceNotFound {
 			return utils.NotFound(c, "Workspace not found")
 		}

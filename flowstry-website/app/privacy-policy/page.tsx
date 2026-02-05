@@ -20,7 +20,10 @@ export default function PrivacyPolicy() {
 
           <div className="space-y-6">
             <p>
-              <strong>Flowstry</strong> ("we," "us," or "our") respects your privacy and is committed to protecting your personal data. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you access our application.
+              <strong>Flowstry</strong> ("we," "us," or "our") respects your privacy and is committed to protecting your personal data. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you access our application available at flowstry.com. This policy applies primarily when you <strong>register and log in</strong> to the application.
+            </p>
+            <p>
+              If you use the standard version of Flowstry without logging in, your diagrams and data are stored <strong>locally in your browser's storage</strong>. In this local-only mode, no personal data or diagram content is transmitted to or stored on our servers.
             </p>
 
             <section>
@@ -43,11 +46,7 @@ export default function PrivacyPolicy() {
                 </p>
 
                 <h3 className="text-xl font-medium text-white mt-6">C. Workspace & Diagram Content</h3>
-                <p>We store the content you create, such as workspaces and diagrams.</p>
-                <ul className="list-disc pl-5 space-y-2">
-                  <li><strong>Unencrypted Content:</strong> By default, content is stored securely on our servers. We do not access this content except as necessary to provide the service (e.g., storage, backup).</li>
-                  <li><strong>Encrypted Content:</strong> If you utilize our "End-to-End Encryption" feature, your workspace and diagram content is encrypted on your device <em>before</em> it is sent to our servers. We do not possess the decryption keys and <strong>cannot</strong> access or view this content.</li>
-                </ul>
+                <p>We store the content you create, such as workspaces and diagrams, securely on our servers.</p>
               </div>
             </section>
 
@@ -83,15 +82,21 @@ export default function PrivacyPolicy() {
               <h2 className="text-2xl font-semibold text-white mb-4">4. Encryption & Data Security</h2>
               <p>We implement appropriate technical and organizational security measures designed to protect the security of any personal information we process.</p>
               <ul className="list-disc pl-5 space-y-2 mt-2">
-                <li><strong>Zero-Knowledge Encryption:</strong> For workspaces where encryption is enabled, we utilize client-side encryption. The decryption key is derived from a password known only to you. <strong>We do not store this password.</strong> If you lose this password, we cannot recover your data.</li>
+                <li><strong>Data Security:</strong> All data stored in our database is encrypted at rest to ensure that it cannot be accessed by unauthorized parties. We verify and strictly control internal access to the database.</li>
+                <li><strong>Early Access Disclaimer:</strong> Please be aware that Flowstry is currently in an <strong>Early Access</strong> phase. While we safeguard your data, we do not currently maintain strict historical backups. There is a possibility of data loss or service interruption.</li>
               </ul>
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-white mb-4">5. Third-Party Service Providers</h2>
+              <h2 className="text-2xl font-semibold text-white mb-4">5. Third-Party Service Providers & Open Source</h2>
               <p>
-                We may share information with third parties that perform services for us or on our behalf, including data hosting (Google Cloud Platform) and authentication (Google Auth).
+                Flowstry is an <strong>Open Source</strong> project. We do not use closed-source software in our core codebase. We may share information with strictly necessary third-party providers that enable our hosted service:
               </p>
+              <ul className="list-disc pl-5 space-y-2 mt-2">
+                <li><strong>Google Cloud Platform:</strong> For data hosting and infrastructure.</li>
+                <li><strong>MongoDB:</strong> For database services.</li>
+                <li><strong>Google Auth:</strong> For user authentication.</li>
+              </ul>
             </section>
 
             <section>

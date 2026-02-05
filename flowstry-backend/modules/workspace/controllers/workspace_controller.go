@@ -191,6 +191,9 @@ func getUserIDFromContext(c *fiber.Ctx) (primitive.ObjectID, error) {
 		return primitive.NilObjectID, fiber.ErrUnauthorized
 	}
 
+	return primitive.ObjectIDFromHex(userIDStr)
+}
+
 // GetKey retrieves the workspace encryption key
 func (wc *WorkspaceController) GetKey(c *fiber.Ctx) error {
 	userID, err := getUserIDFromContext(c)

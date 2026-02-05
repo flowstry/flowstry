@@ -139,7 +139,7 @@ func (dc *DiagramController) List(c *fiber.Ctx) error {
 	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
 	defer cancel()
 
-	if err := dc.workspaceService.VerifyOwnership(ctx, workspaceID, userID); err != nil {
+	if err := dc.workspaceService.VerifyAccess(ctx, workspaceID, userID); err != nil {
 		if err == services.ErrWorkspaceNotFound {
 			return utils.NotFound(c, "Workspace not found")
 		}
@@ -249,7 +249,7 @@ func (dc *DiagramController) Get(c *fiber.Ctx) error {
 	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
 	defer cancel()
 
-	if err := dc.workspaceService.VerifyOwnership(ctx, workspaceID, userID); err != nil {
+	if err := dc.workspaceService.VerifyAccess(ctx, workspaceID, userID); err != nil {
 		if err == services.ErrWorkspaceNotFound {
 			return utils.NotFound(c, "Workspace not found")
 		}
@@ -294,7 +294,7 @@ func (dc *DiagramController) Download(c *fiber.Ctx) error {
 	ctx, cancel := context.WithTimeout(context.Background(), 60*time.Second)
 	defer cancel()
 
-	if err := dc.workspaceService.VerifyOwnership(ctx, workspaceID, userID); err != nil {
+	if err := dc.workspaceService.VerifyAccess(ctx, workspaceID, userID); err != nil {
 		if err == services.ErrWorkspaceNotFound {
 			return utils.NotFound(c, "Workspace not found")
 		}
@@ -537,7 +537,7 @@ func (dc *DiagramController) ListTrash(c *fiber.Ctx) error {
 	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
 	defer cancel()
 
-	if err := dc.workspaceService.VerifyOwnership(ctx, workspaceID, userID); err != nil {
+	if err := dc.workspaceService.VerifyAccess(ctx, workspaceID, userID); err != nil {
 		if err == services.ErrWorkspaceNotFound {
 			return utils.NotFound(c, "Workspace not found")
 		}
@@ -577,7 +577,7 @@ func (dc *DiagramController) GetUploadURL(c *fiber.Ctx) error {
 	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
 	defer cancel()
 
-	if err := dc.workspaceService.VerifyOwnership(ctx, workspaceID, userID); err != nil {
+	if err := dc.workspaceService.VerifyAccess(ctx, workspaceID, userID); err != nil {
 		if err == services.ErrWorkspaceNotFound {
 			return utils.NotFound(c, "Workspace not found")
 		}
@@ -622,7 +622,7 @@ func (dc *DiagramController) GetDownloadURL(c *fiber.Ctx) error {
 	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
 	defer cancel()
 
-	if err := dc.workspaceService.VerifyOwnership(ctx, workspaceID, userID); err != nil {
+	if err := dc.workspaceService.VerifyAccess(ctx, workspaceID, userID); err != nil {
 		if err == services.ErrWorkspaceNotFound {
 			return utils.NotFound(c, "Workspace not found")
 		}

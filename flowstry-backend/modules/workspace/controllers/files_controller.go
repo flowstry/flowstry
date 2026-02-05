@@ -57,7 +57,7 @@ func (fc *FilesController) List(c *fiber.Ctx) error {
 	defer cancel()
 
 	// Verify workspace ownership
-	if err := fc.workspaceService.VerifyOwnership(ctx, workspaceID, userID); err != nil {
+	if err := fc.workspaceService.VerifyAccess(ctx, workspaceID, userID); err != nil {
 		if err == services.ErrWorkspaceNotFound {
 			return utils.NotFound(c, "Workspace not found")
 		}
